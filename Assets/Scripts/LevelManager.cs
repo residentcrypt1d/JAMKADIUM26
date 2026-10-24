@@ -7,7 +7,7 @@ public class LevelManager : MonoBehaviour
 {
     public static LevelManager instance;
     [SerializeField] private GameObject[] levels;
-    private List<WalkableTile> walkableTiles = new List<WalkableTile>();
+    public List<WalkableTile> walkableTiles = new List<WalkableTile>();
     [HideInInspector] public Tilemap _tilemap;
     private int currLevel = 0;
     private int paintedTiles = 0;
@@ -42,7 +42,7 @@ public class LevelManager : MonoBehaviour
 
         // _tilemap.SetColor(cellPos, Color.red);
 
-        WalkableTile tile = _tilemap.GetTile<WalkableTile>(cellPos);
+        WalkableTile tile = _tilemap.GetTile<Tile>(cellPos).gameObject.GetComponent<WalkableTile>();
         Debug.Log(tile.painted);
         if(tile && !tile.painted)
         {
@@ -71,11 +71,11 @@ public class LevelManager : MonoBehaviour
             Debug.LogError("Level " + levelNum + " GameObject does not have a tilemap.");
             return;
         }
-        foreach(TileBase tile in _tilemap.GetTilesBlock(_tilemap.cellBounds))
+        foreach(Tile tile in _tilemap.GetTilesBlock(_tilemap.cellBounds))
         {
-            if(tile is WalkableTile walkTile)
+            if(tile.gameObject.TryGetComponent(typeof(WalkableTile), out Component walkTile))
             {
-                walkableTiles.Add(walkTile);
+                walkableTiles.Add(walkTile as WalkableTile);
             }
         }
     }

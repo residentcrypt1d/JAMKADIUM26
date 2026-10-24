@@ -3,12 +3,12 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 
-[CreateAssetMenu]
-public class WalkableTile : TileBase
+public class WalkableTile : MonoBehaviour
 {
     public bool painted = false;
     public List<Cat> occupants;
     public Sprite sprite;
+    public Vector3Int gridPosition;
     
     public bool CanMoveTo()
     {
@@ -28,12 +28,6 @@ public class WalkableTile : TileBase
         }
 
         occupants.Remove(leavingOccupant);
-    }
-    
-    public override void GetTileData(Vector3Int position, ITilemap tilemap, ref TileData tileData)
-    {
-        tileData.color = Color.white;
-        tileData.sprite = sprite;
     }
     
 }
