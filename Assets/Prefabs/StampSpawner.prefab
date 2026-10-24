@@ -49,5 +49,4 @@ MonoBehaviour:
   sprite: {fileID: 0}
   gridPosition: {x: 0, y: 0, z: 0}
   tile: {fileID: 0}
-  spawnType: 2
-  catPrefab: {fileID: 2325886609070133524, guid: 13b609a17c8567b47ae0c64d8e251171, type: 3}
+  catPrefab: {fileID: 2325886609070133524, guid: 5f01fcdc5cc1a4e4b8e355145cd2b837, type: 3}

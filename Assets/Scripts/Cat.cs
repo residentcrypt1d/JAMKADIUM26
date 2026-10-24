@@ -18,6 +18,7 @@ public abstract class Cat : MonoBehaviour
     
 
     #region debug
+    /*
     private InputAction debugClick;
     
     private void Start()
@@ -61,5 +62,6 @@ public abstract class Cat : MonoBehaviour
         
         
     }
+    */
     #endregion
 }
