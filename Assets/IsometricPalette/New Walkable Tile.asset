@@ -15,3 +15,5 @@ MonoBehaviour:
   painted: 0
   occupants: []
   sprite: {fileID: 8020143640844766479, guid: 8486a16af7826ee4dbb612cc6e047606, type: 3}
+  gridPosition: {x: 0, y: 0, z: 0}
+  tile: {fileID: 0}
