@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 
 public class CharcoalCat : Cat
 {
@@ -19,6 +20,27 @@ public class CharcoalCat : Cat
         }
 
         return toReturn;
+    }
+
+    public override List<Vector3Int> GetInkPatternFromMovement(Vector3Int destination)
+    {
+        Vector3Int offset = destination - gridPos;
+        int squares = (int)offset.magnitude;
+        Vector3Int direction = offset / squares;
+
+        List<Vector3Int> toReturn = new List<Vector3Int>();
+        
+        for (int i = 1; i <= squares; i++)
+        {
+            toReturn.Add(gridPos + (i * direction));
+        }
+
+        return toReturn;
+    }
+
+    public override async Task MoveTo(Vector3Int destination)
+    {
+        throw new System.NotImplementedException();
     }
 
     private Vector3Int CharcoalHelper(List<Vector3Int> list, Vector3Int dir, Vector3Int pos){

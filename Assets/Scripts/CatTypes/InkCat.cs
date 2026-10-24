@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 using UnityEngine.Tilemaps;
 
 public class InkCat : Cat
@@ -15,6 +16,16 @@ public class InkCat : Cat
         List<Vector3Int> outList = new List<Vector3Int>();
         GetTilesRecursive(gridPos, new Dictionary<Vector3Int, int>(), outList, 0);
         return outList;
+    }
+
+    public override List<Vector3Int> GetInkPatternFromMovement(Vector3Int destination)
+    {
+        return new List<Vector3Int>(){destination, destination + Vector3Int.right, destination + Vector3Int.up, destination + Vector3Int.left, destination + Vector3Int.down};
+    }
+
+    public override async Task MoveTo(Vector3Int destination)
+    {
+        throw new System.NotImplementedException();
     }
 
     private void GetTilesRecursive(Vector3Int coord, Dictionary<Vector3Int, int> visitedDepths, List<Vector3Int> list, int depth)

@@ -381,9 +381,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 925537780}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ca4862b0cd01624cb80ad76e19baf9f, type: 3}
+  m_Script: {fileID: 11500000, guid: c7aa8c999da24b840a8efe5e8d1aabb3, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::StampCat
+  m_EditorClassIdentifier: Assembly-CSharp::CharcoalCat
   gridPos: {x: 0, y: 0, z: 0}
   currTile: {fileID: 0}
 --- !u!1 &1418908099

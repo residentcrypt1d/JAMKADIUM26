@@ -12,6 +12,10 @@ public class LevelManager : MonoBehaviour
     [HideInInspector] public Tilemap tilemap;
     private int currLevel = 0;
     private int paintedTiles = 0;
+
+    private InputAction click;
+    
+    [HideInInspector] public Cat selectedCat;
     
     void Awake()
     {
@@ -23,6 +27,7 @@ public class LevelManager : MonoBehaviour
         {
             Destroy(gameObject);
         }
+        click = InputSystem.actions.FindAction("Click");
     }
 
     void Start()
@@ -39,20 +44,64 @@ public class LevelManager : MonoBehaviour
         Vector3Int cellPos = tilemap.WorldToCell(mousePos);
         
         // print(cellPos);
-        Debug.DrawLine(transform.position, tilemap.GetCellCenterWorld(cellPos));
 
         // _tilemap.SetColor(cellPos, Color.red);
 
         WalkableTile tile = tilemap.GetTile<Tile>(cellPos)?.gameObject.GetComponent<WalkableTile>();
-        if(tile && !tile.painted)
+        if (tile)
         {
-            Debug.Log("AUHGUHWEHFHG");
-            tile.painted = true;
-            tilemap.SetColor(cellPos, Color.blue);
-            paintedTiles++;
+            if (!selectedCat)
+            {
+                if (tile.occupants.Count > 0)
+                {
+                    selectedCat = tile.occupants.First(c => c is not InkCat);
+                }
+            }
+
+            /*if(tile && !tile.painted)
+            {
+                Debug.Log("AUHGUHWEHFHG");
+                tile.painted = true;
+                tilemap.SetColor(cellPos, Color.blue);
+                paintedTiles++;
+            }*/
         }
+
     }
 
+    private void VisualUpdate(Vector3Int mousedOverGrid)
+    {
+        if (!selectedCat) return;
+
+        var validMoves = selectedCat.GetValidMoves();
+        List<Vector3Int> inkPositions = new List<Vector3Int>();
+        
+        if (validMoves.Contains(mousedOverGrid))
+        {
+            inkPositions.AddRange(selectedCat.GetInkPatternFromMovement(mousedOverGrid));
+        }
+        
+        foreach (WalkableTile w in walkableTiles)
+        {
+            if (w.tile == null)
+            {
+                Debug.LogWarning("Tile Missing");
+                continue;
+            }
+            
+            if(validMoves.Contains(w.gridPosition) && inkPositions.Contains(w.gridPosition))
+                tilemap.SetColor(w.gridPosition, Color.purple);
+            else if (validMoves.Contains(w.gridPosition))
+                tilemap.SetColor(w.gridPosition, Color.red);
+            else if(inkPositions.Contains(w.gridPosition))
+            {
+                tilemap.SetColor(w.gridPosition, Color.blue);
+            }
+            else
+                tilemap.SetColor(w.gridPosition, Color.white);
+        }
+    }
+    
     public void LoadLevel(int levelNum)
     {
         if(levelNum >= levels.Length)
