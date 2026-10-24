@@ -1,8 +1,14 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Scripts/CatTypes.meta
 guid: bb2463be410756b46b85eddb3a566ef3
 folderAsset: yes
 DefaultImporter:
+========
+guid: e42a1e6e1246f554384b369bdfe2d710
+NativeFormatImporter:
+>>>>>>>> 56473ac5ded95f5d088a358432897450bcc1b6fc:Assets/IsometricPalette/New Walkable Tile.asset.meta
   externalObjects: {}
+  mainObjectFileID: 11400000
   userData: 
   assetBundleName: 
   assetBundleVariant: 
