@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 using UnityEngine.Tilemaps;
 
@@ -23,9 +24,20 @@ public class InkCat : Cat
         return new List<Vector3Int>(){destination, destination + Vector3Int.right, destination + Vector3Int.up, destination + Vector3Int.left, destination + Vector3Int.down};
     }
 
-    public override async Task MoveTo(Vector3Int destination)
+    protected override void PassedIntoNewCell(Vector3Int newCell)
     {
-        throw new System.NotImplementedException();
+        return;
+    }
+
+    protected override void ArrivedAtDestination(Vector3Int destination)
+    {
+        var inkTargets = GetInkPatternFromMovement(gridPos);
+        inkTargets.ForEach(t =>
+        {
+            WalkableTile tile = LevelManager.instance.tilemap.GetInstantiatedObject(t).GetComponent<WalkableTile>();
+            tile.painted = true;
+            tile.paintedBy = CatType.Ink;
+        });
     }
 
     private void GetTilesRecursive(Vector3Int coord, Dictionary<Vector3Int, int> visitedDepths, List<Vector3Int> list, int depth)

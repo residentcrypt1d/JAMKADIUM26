@@ -6,8 +6,10 @@ public class SpawnerTile : WalkableTile
     //[SerializeField] CatType spawnType;
     [SerializeField] GameObject catPrefab;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    protected new void Start()
     {
+        base.Start();
+        
         GameObject catInstance = Instantiate(catPrefab, transform.position, Quaternion.identity);
         
         Cat catComponent = catInstance.GetComponent<Cat>();
@@ -28,6 +30,6 @@ public class SpawnerTile : WalkableTile
         }*/
         occupants.Add(catComponent);
         catComponent.currTile = this;
-        catComponent.gridPos = gridPosition;
+        //catComponent.gridPos = gridPosition;
     }
 }

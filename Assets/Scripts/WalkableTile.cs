@@ -6,16 +6,22 @@ using UnityEngine.Tilemaps;
 
 public class WalkableTile : MonoBehaviour
 {
-    public bool painted = false;
+    public bool painted;
+    public CatType paintedBy;
+    
     public List<Cat> occupants;
     public Sprite sprite;
     public Vector3Int gridPosition;
     public Tile tile;
 
-    private void Start()
+    protected void Start()
     {
         gridPosition = LevelManager.instance.tilemap.WorldToCell(transform.position);
         tile = LevelManager.instance.tilemap.GetTile(gridPosition) as Tile;
+        if (tile == null)
+        {
+            Debug.LogWarning("I don't have a tile? Who spawned me?!", this);
+        }
     }
 
     public bool CanMoveTo()
@@ -23,12 +29,12 @@ public class WalkableTile : MonoBehaviour
         return occupants.Count < 1;
     }
 
-    public void MoveTo(Cat newOccupant)
+    public void AddOccupant(Cat newOccupant)
     {
         occupants.Add(newOccupant);
     }
 
-    public void Leave(Cat leavingOccupant)
+    public void RemoveOccupant(Cat leavingOccupant)
     {
         if (!occupants.Contains(leavingOccupant))
         {
@@ -37,5 +43,4 @@ public class WalkableTile : MonoBehaviour
 
         occupants.Remove(leavingOccupant);
     }
-    
 }
