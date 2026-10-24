@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
@@ -9,7 +10,14 @@ public class WalkableTile : MonoBehaviour
     public List<Cat> occupants;
     public Sprite sprite;
     public Vector3Int gridPosition;
-    
+    public Tile tile;
+
+    private void Start()
+    {
+        gridPosition = LevelManager.instance.tilemap.WorldToCell(transform.position);
+        tile = LevelManager.instance.tilemap.GetTile(gridPosition) as Tile;
+    }
+
     public bool CanMoveTo()
     {
         return occupants.Count < 1;
@@ -24,7 +32,7 @@ public class WalkableTile : MonoBehaviour
     {
         if (!occupants.Contains(leavingOccupant))
         {
-            Debug.LogError($"{leavingOccupant.name} treid to leave a tile that it did not occupy.");
+            Debug.LogError($"{leavingOccupant.name} tried to leave a tile that it did not occupy.");
         }
 
         occupants.Remove(leavingOccupant);

@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.Tilemaps;
@@ -42,8 +43,7 @@ public class LevelManager : MonoBehaviour
 
         // _tilemap.SetColor(cellPos, Color.red);
 
-        WalkableTile tile = tilemap.GetTile<Tile>(cellPos).gameObject.GetComponent<WalkableTile>();
-        Debug.Log(tile.painted);
+        WalkableTile tile = tilemap.GetTile<Tile>(cellPos)?.gameObject.GetComponent<WalkableTile>();
         if(tile && !tile.painted)
         {
             Debug.Log("AUHGUHWEHFHG");
@@ -71,13 +71,8 @@ public class LevelManager : MonoBehaviour
             Debug.LogError("Level " + levelNum + " GameObject does not have a tilemap.");
             return;
         }
-        foreach(Tile tile in tilemap.GetTilesBlock(tilemap.cellBounds))
-        {
-            if(tile.gameObject.TryGetComponent(typeof(WalkableTile), out Component walkTile))
-            {
-                walkableTiles.Add(walkTile as WalkableTile);
-            }
-        }
+
+        walkableTiles = GetComponentsInChildren<WalkableTile>().ToList();
     }
 
     public void CheckCompletion()

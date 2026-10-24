@@ -1,22 +1,63 @@
 using UnityEngine;
 using System.Collections.Generic;
+using UnityEngine.Tilemaps;
 
-public class InkCatBehavior : Cat
+public class InkCat : Cat
 {
+    private const int MAX_JUMP_DIST = 3;
+    
     public void InkCatSpecial(){
 
     }
 
-    public override List<Vector3Int> GetValidMoves(){
-        return null;
+    public override List<Vector3Int> GetValidMoves()
+    {
+        List<Vector3Int> outList = new List<Vector3Int>();
+        GetTilesRecursive(gridPos, new Dictionary<Vector3Int, int>(), outList, 0);
+        return outList;
     }
 
-    private void GetTilesRecursive(Vector3Int coord, List<Vector3Int> visited, List<Vector3Int> list, int depth)
+    private void GetTilesRecursive(Vector3Int coord, Dictionary<Vector3Int, int> visitedDepths, List<Vector3Int> list, int depth)
     {
-        depth++;
-        visited.Add(coord);
+        if (visitedDepths.TryGetValue(coord, out int existingDepth))
+        {
+            if (existingDepth > depth)
+            {
+                visitedDepths[coord] = depth;
 
-        //LevelManager.instance.tilemap.Tiles
+                if (existingDepth == MAX_JUMP_DIST)
+                {
+                    list.Remove(coord);
+                }
+            }
+            else
+            {
+                return;
+            }
+        }
+        else
+        {
+            visitedDepths.Add(coord, depth);
+        }
+
+        if (LevelManager.instance.tilemap.GetTile(coord) is Tile tile)
+        {
+            if (tile.gameObject.TryGetComponent(out WalkableTile walkable) && depth == MAX_JUMP_DIST)
+            {
+                list.Add(coord);
+            }
+        }
+
+        if (depth >= MAX_JUMP_DIST) return;
+        
+        Vector3Int[] neighbors = {coord + Vector3Int.right, coord + Vector3Int.up, coord + Vector3Int.left, coord + Vector3Int.down};
+
+        foreach (Vector3Int p in neighbors)
+        {
+            if (visitedDepths.TryGetValue(p, out int storedDepth) && storedDepth <= depth + 1) continue;
+            
+            GetTilesRecursive(p, visitedDepths, list, depth + 1);
+        }
         
     }
 }
