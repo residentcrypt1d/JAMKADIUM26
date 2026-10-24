@@ -1,10 +1,10 @@
 using UnityEngine;
+using System.Collections.Generic;
 
-public class Cat : MonoBehaviour
+public abstract class Cat : MonoBehaviour
 {
     public Vector3Int gridPos;
+    public WalkableTile currTile;
 
-    public bool CanMove(Vector3Int targPos){
-        return true;
-    }
+    public abstract List<Vector3Int> GetValidMoves();
 }
