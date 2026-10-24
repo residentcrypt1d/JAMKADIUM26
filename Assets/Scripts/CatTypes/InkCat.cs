@@ -16,7 +16,7 @@ public class InkCatBehavior : Cat
         depth++;
         visited.Add(coord);
 
-        //LevelManager.instance._tilemap.Tiles
+        //LevelManager.instance.tilemap.Tiles
         
     }
 }

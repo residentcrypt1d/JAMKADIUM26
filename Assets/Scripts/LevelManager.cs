@@ -8,7 +8,7 @@ public class LevelManager : MonoBehaviour
     public static LevelManager instance;
     [SerializeField] private GameObject[] levels;
     public List<WalkableTile> walkableTiles = new List<WalkableTile>();
-    [HideInInspector] public Tilemap _tilemap;
+    [HideInInspector] public Tilemap tilemap;
     private int currLevel = 0;
     private int paintedTiles = 0;
     
@@ -35,20 +35,20 @@ public class LevelManager : MonoBehaviour
         // print(mousePos);
         mousePos = Camera.main.ScreenToWorldPoint(mousePos);
 
-        Vector3Int cellPos = _tilemap.WorldToCell(mousePos);
+        Vector3Int cellPos = tilemap.WorldToCell(mousePos);
         
         // print(cellPos);
-        Debug.DrawLine(transform.position, _tilemap.GetCellCenterWorld(cellPos));
+        Debug.DrawLine(transform.position, tilemap.GetCellCenterWorld(cellPos));
 
         // _tilemap.SetColor(cellPos, Color.red);
 
-        WalkableTile tile = _tilemap.GetTile<Tile>(cellPos).gameObject.GetComponent<WalkableTile>();
+        WalkableTile tile = tilemap.GetTile<Tile>(cellPos).gameObject.GetComponent<WalkableTile>();
         Debug.Log(tile.painted);
         if(tile && !tile.painted)
         {
             Debug.Log("AUHGUHWEHFHG");
             tile.painted = true;
-            _tilemap.SetColor(cellPos, Color.blue);
+            tilemap.SetColor(cellPos, Color.blue);
             paintedTiles++;
         }
     }
@@ -61,17 +61,17 @@ public class LevelManager : MonoBehaviour
             return;
         }
         
-        if(_tilemap)
+        if(tilemap)
         {
-            Destroy(_tilemap.gameObject);
+            Destroy(tilemap.gameObject);
         }
-        _tilemap = Instantiate(levels[levelNum], transform).GetComponent<Tilemap>();
-        if(!_tilemap)
+        tilemap = Instantiate(levels[levelNum], transform).GetComponent<Tilemap>();
+        if(!tilemap)
         {
             Debug.LogError("Level " + levelNum + " GameObject does not have a tilemap.");
             return;
         }
-        foreach(Tile tile in _tilemap.GetTilesBlock(_tilemap.cellBounds))
+        foreach(Tile tile in tilemap.GetTilesBlock(tilemap.cellBounds))
         {
             if(tile.gameObject.TryGetComponent(typeof(WalkableTile), out Component walkTile))
             {
