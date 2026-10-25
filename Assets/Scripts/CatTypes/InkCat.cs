@@ -34,9 +34,12 @@ public class InkCat : Cat
         var inkTargets = GetInkPatternFromMovement(gridPos);
         inkTargets.ForEach(t =>
         {
-            WalkableTile tile = LevelManager.instance.tilemap.GetInstantiatedObject(t).GetComponent<WalkableTile>();
-            tile.painted = true;
-            tile.paintedBy = CatType.Ink;
+            WalkableTile tile = LevelManager.instance.tilemap.GetInstantiatedObject(t)?.GetComponent<WalkableTile>();
+            if (tile)
+            {
+                tile.painted = true;
+                tile.paintedBy = CatType.Ink;
+            }
         });
     }
 

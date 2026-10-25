@@ -71,9 +71,6 @@ public class LevelManager : MonoBehaviour
 
     private void ProcessClick(WalkableTile walkableTile)
     {
-        print($"Clicked {walkableTile.gameObject.name}");
-        
-        print($"\t{walkableTile.occupants}");
         if (walkableTile.occupants.Count > 0)
         {
             if (selectedCat && walkableTile.occupants.Contains(selectedCat)) selectedCat = null;
@@ -83,13 +80,9 @@ public class LevelManager : MonoBehaviour
 
         if (!selectedCat)
         {
-            print($"\tNo cat selected, returning.");
             return;
         }
-        
-        
-        print($"\t{selectedCat} is selected.");
-        
+
         var validMoves = selectedCat.GetValidMoves();
         if (validMoves.Contains(walkableTile.gridPosition))
         {

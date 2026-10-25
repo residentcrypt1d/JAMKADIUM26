@@ -32,8 +32,6 @@ public abstract class Cat : MonoBehaviour
 
         int numberOfFrames = Mathf.CeilToInt(transitionTime / Time.deltaTime);
 
-        print(numberOfFrames);
-
         Vector3Int previousGridPos = gridPos;
         
         for (int i = 0; i < numberOfFrames; i++)
