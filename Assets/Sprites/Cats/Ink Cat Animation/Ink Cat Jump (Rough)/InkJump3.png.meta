@@ -1,10 +1,16 @@
 fileFormatVersion: 2
-guid: 3b519572c5be52a46970daad20233b57
+guid: 64a2300c4ce1a41a48625634dbd6942e
 TextureImporter:
   internalIDToNameTable:
   - first:
       213: 6022342678345384492
     second: InkJump3_0
+  - first:
+      213: -426870714192355741
+    second: InkJump3_1
+  - first:
+      213: -1203011167857509931
+    second: InkJump3_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,12 +52,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 750
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -116,10 +122,10 @@ TextureImporter:
       name: InkJump3_0
       rect:
         serializedVersion: 2
-        x: 718
-        y: 747
-        width: 844
-        height: 1124
+        x: 0
+        y: 0
+        width: 1080
+        height: 1080
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -134,11 +140,55 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: InkJump3_1
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 0
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36e1c8bd853731af0800000000000000
+      internalID: -426870714192355741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump3_2
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 0
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d9760777bb0e4fe0800000000000000
+      internalID: -1203011167857509931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -149,6 +199,8 @@ TextureImporter:
       entries: []
     nameFileIdTable:
       InkJump3_0: 6022342678345384492
+      InkJump3_1: -426870714192355741
+      InkJump3_2: -1203011167857509931
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,10 +1,547 @@
 fileFormatVersion: 2
-guid: 4f34a1f6a613319428d2213dfe053489
+guid: 080831b95a72148cb8d75d677a81c177
 TextureImporter:
   internalIDToNameTable:
   - first:
       213: 8143275182815808439
     second: InkJump1_0
+  - first:
+      213: 7902560975802634310
+    second: InkJump1_1
+  - first:
+      213: -1979134868431197419
+    second: InkJump1_2
+  - first:
+      213: -5264667149135774154
+    second: InkJump1_3
+  - first:
+      213: 2452915907182001586
+    second: InkJump1_4
+  - first:
+      213: 6351559105489190642
+    second: InkJump1_5
+  - first:
+      213: 4946204543117520664
+    second: InkJump1_6
+  - first:
+      213: 282592548473705342
+    second: InkJump1_7
+  - first:
+      213: -2821106670279887339
+    second: InkJump1_8
+  - first:
+      213: 2079090075947370707
+    second: InkJump1_9
+  - first:
+      213: -5725242763223785303
+    second: InkJump1_10
+  - first:
+      213: -940557614083549726
+    second: InkJump1_11
+  - first:
+      213: -4696203674852386483
+    second: InkJump1_12
+  - first:
+      213: -8327310727309361347
+    second: InkJump1_13
+  - first:
+      213: 1878824174508095143
+    second: InkJump1_14
+  - first:
+      213: 6602074090150038624
+    second: InkJump1_15
+  - first:
+      213: 9207069978951663365
+    second: InkJump1_16
+  - first:
+      213: -2334205721829472045
+    second: InkJump1_17
+  - first:
+      213: -902439278139484662
+    second: InkJump1_18
+  - first:
+      213: 7516993830787169445
+    second: InkJump1_19
+  - first:
+      213: 7435528603987223058
+    second: InkJump1_20
+  - first:
+      213: 305585881371319295
+    second: InkJump1_21
+  - first:
+      213: 5820992893631490335
+    second: InkJump1_22
+  - first:
+      213: -6009453005039277296
+    second: InkJump1_23
+  - first:
+      213: 486041260026218136
+    second: InkJump1_24
+  - first:
+      213: -2534901604583860356
+    second: InkJump1_25
+  - first:
+      213: 1616052970671768070
+    second: InkJump1_26
+  - first:
+      213: -4239421239707754640
+    second: InkJump1_27
+  - first:
+      213: -3130221300496934969
+    second: InkJump1_28
+  - first:
+      213: -5356959933254453790
+    second: InkJump1_29
+  - first:
+      213: 1769536582035517305
+    second: InkJump1_30
+  - first:
+      213: -8348354640810579253
+    second: InkJump1_31
+  - first:
+      213: 461323752176778654
+    second: InkJump1_32
+  - first:
+      213: 6980767242588291247
+    second: InkJump1_33
+  - first:
+      213: -673045929080031091
+    second: InkJump1_34
+  - first:
+      213: 2788834870944071794
+    second: InkJump1_35
+  - first:
+      213: 5819165951379877888
+    second: InkJump1_36
+  - first:
+      213: -730700334840131492
+    second: InkJump1_37
+  - first:
+      213: 4618368781977102384
+    second: InkJump1_38
+  - first:
+      213: 3412028935500903482
+    second: InkJump1_39
+  - first:
+      213: -9127191427243597877
+    second: InkJump1_40
+  - first:
+      213: -6066526167419429928
+    second: InkJump1_41
+  - first:
+      213: 8168466404020183230
+    second: InkJump1_42
+  - first:
+      213: -449174479582125832
+    second: InkJump1_43
+  - first:
+      213: -6074401751943432219
+    second: InkJump1_44
+  - first:
+      213: 6348717913624575673
+    second: InkJump1_45
+  - first:
+      213: 8063104182621139087
+    second: InkJump1_46
+  - first:
+      213: -2140985156850310627
+    second: InkJump1_47
+  - first:
+      213: -4575610017550350354
+    second: InkJump1_48
+  - first:
+      213: 3040722293264973219
+    second: InkJump1_49
+  - first:
+      213: 8952232385774946216
+    second: InkJump1_50
+  - first:
+      213: 2777812261507741026
+    second: InkJump1_51
+  - first:
+      213: -5912581515347132739
+    second: InkJump1_52
+  - first:
+      213: -1436906657258115265
+    second: InkJump1_53
+  - first:
+      213: 5024555265316975070
+    second: InkJump1_54
+  - first:
+      213: -6481735431468555526
+    second: InkJump1_55
+  - first:
+      213: 2730036830923681916
+    second: InkJump1_56
+  - first:
+      213: 1397198428120324100
+    second: InkJump1_57
+  - first:
+      213: 6010783913851626420
+    second: InkJump1_58
+  - first:
+      213: 1727799671557823454
+    second: InkJump1_59
+  - first:
+      213: 2686767354816837932
+    second: InkJump1_60
+  - first:
+      213: 7124355182315888974
+    second: InkJump1_61
+  - first:
+      213: -4663436727488935084
+    second: InkJump1_62
+  - first:
+      213: -392758442901935418
+    second: InkJump1_63
+  - first:
+      213: 2272219649112118245
+    second: InkJump1_64
+  - first:
+      213: 2149501427620473993
+    second: InkJump1_65
+  - first:
+      213: 3742872649888155054
+    second: InkJump1_66
+  - first:
+      213: 6893608287531390044
+    second: InkJump1_67
+  - first:
+      213: 2440914142857643323
+    second: InkJump1_68
+  - first:
+      213: -1560119403371628332
+    second: InkJump1_69
+  - first:
+      213: 2218236485051198557
+    second: InkJump1_70
+  - first:
+      213: -1188404542106604422
+    second: InkJump1_71
+  - first:
+      213: 6538202936321608527
+    second: InkJump1_72
+  - first:
+      213: 6702411253383805632
+    second: InkJump1_73
+  - first:
+      213: 8113035701339545575
+    second: InkJump1_74
+  - first:
+      213: -4844127207501555923
+    second: InkJump1_75
+  - first:
+      213: 4626756514295637491
+    second: InkJump1_76
+  - first:
+      213: -6791370401690701696
+    second: InkJump1_77
+  - first:
+      213: 427504753771628413
+    second: InkJump1_78
+  - first:
+      213: -5324224234281358160
+    second: InkJump1_79
+  - first:
+      213: 7699218685005408403
+    second: InkJump1_80
+  - first:
+      213: -2700707671946807550
+    second: InkJump1_81
+  - first:
+      213: 7133871486461110223
+    second: InkJump1_82
+  - first:
+      213: -2639033861463255184
+    second: InkJump1_83
+  - first:
+      213: 8731500093887096959
+    second: InkJump1_84
+  - first:
+      213: -2019728439810054770
+    second: InkJump1_85
+  - first:
+      213: 1103398598652830554
+    second: InkJump1_86
+  - first:
+      213: 7055950097867511235
+    second: InkJump1_87
+  - first:
+      213: -3177367139409076385
+    second: InkJump1_88
+  - first:
+      213: -2134914175511499511
+    second: InkJump1_89
+  - first:
+      213: 8561639366652354471
+    second: InkJump1_90
+  - first:
+      213: 1791666917417504105
+    second: InkJump1_91
+  - first:
+      213: 470875424627227869
+    second: InkJump1_92
+  - first:
+      213: -4811838909476752459
+    second: InkJump1_93
+  - first:
+      213: 2938931180684872057
+    second: InkJump1_94
+  - first:
+      213: 8146542698785509085
+    second: InkJump1_95
+  - first:
+      213: 302688572648317157
+    second: InkJump1_96
+  - first:
+      213: 3437530170265746407
+    second: InkJump1_97
+  - first:
+      213: -8697838396417386607
+    second: InkJump1_98
+  - first:
+      213: -5942859925687651765
+    second: InkJump1_99
+  - first:
+      213: -4869879335119964355
+    second: InkJump1_100
+  - first:
+      213: -3730858205256721026
+    second: InkJump1_101
+  - first:
+      213: 7332686315635774395
+    second: InkJump1_102
+  - first:
+      213: 2625464401491552422
+    second: InkJump1_103
+  - first:
+      213: 6715811380990101074
+    second: InkJump1_104
+  - first:
+      213: 8255776271610798825
+    second: InkJump1_105
+  - first:
+      213: -9020448172281275224
+    second: InkJump1_106
+  - first:
+      213: -2750002974643131925
+    second: InkJump1_107
+  - first:
+      213: 725718170862531009
+    second: InkJump1_108
+  - first:
+      213: -1130645347198674943
+    second: InkJump1_109
+  - first:
+      213: 5689627348994276219
+    second: InkJump1_110
+  - first:
+      213: -415675051220156088
+    second: InkJump1_111
+  - first:
+      213: 2468332907292153710
+    second: InkJump1_112
+  - first:
+      213: 7585983836239984488
+    second: InkJump1_113
+  - first:
+      213: -8703860867399230392
+    second: InkJump1_114
+  - first:
+      213: 4070537591425063145
+    second: InkJump1_115
+  - first:
+      213: 1669442764805717565
+    second: InkJump1_116
+  - first:
+      213: 3973067143996067307
+    second: InkJump1_117
+  - first:
+      213: -2008117246369167058
+    second: InkJump1_118
+  - first:
+      213: -6060013164655150082
+    second: InkJump1_119
+  - first:
+      213: -5269425923578630970
+    second: InkJump1_120
+  - first:
+      213: -8751089934369655093
+    second: InkJump1_121
+  - first:
+      213: 5198816770131002507
+    second: InkJump1_122
+  - first:
+      213: -1452532138370242438
+    second: InkJump1_123
+  - first:
+      213: -3457682640586380839
+    second: InkJump1_124
+  - first:
+      213: 7318916056955111326
+    second: InkJump1_125
+  - first:
+      213: 3903915955843782508
+    second: InkJump1_126
+  - first:
+      213: 8850503902453073483
+    second: InkJump1_127
+  - first:
+      213: 962298119689196897
+    second: InkJump1_128
+  - first:
+      213: -2424715686335589788
+    second: InkJump1_129
+  - first:
+      213: 8455217778796884999
+    second: InkJump1_130
+  - first:
+      213: -3408377285352884766
+    second: InkJump1_131
+  - first:
+      213: -7603965833170179948
+    second: InkJump1_132
+  - first:
+      213: -2246428209418148933
+    second: InkJump1_133
+  - first:
+      213: -7183376208969877353
+    second: InkJump1_134
+  - first:
+      213: 8091340185712340122
+    second: InkJump1_135
+  - first:
+      213: -5125174804083593280
+    second: InkJump1_136
+  - first:
+      213: -8489972103536637087
+    second: InkJump1_137
+  - first:
+      213: 4221123982633725269
+    second: InkJump1_138
+  - first:
+      213: 6728150514912619603
+    second: InkJump1_139
+  - first:
+      213: 8984633772352030769
+    second: InkJump1_140
+  - first:
+      213: -871706397299442368
+    second: InkJump1_141
+  - first:
+      213: -2347117169819303789
+    second: InkJump1_142
+  - first:
+      213: 7740767837012057814
+    second: InkJump1_143
+  - first:
+      213: 3242608571215741814
+    second: InkJump1_144
+  - first:
+      213: -4830379832121991936
+    second: InkJump1_145
+  - first:
+      213: 6169014910912642005
+    second: InkJump1_146
+  - first:
+      213: -8710468807999616991
+    second: InkJump1_147
+  - first:
+      213: -6268928403783827272
+    second: InkJump1_148
+  - first:
+      213: -7651994721450739858
+    second: InkJump1_149
+  - first:
+      213: -6855344337745834334
+    second: InkJump1_150
+  - first:
+      213: -7602767633229821362
+    second: InkJump1_151
+  - first:
+      213: -692045478743737615
+    second: InkJump1_152
+  - first:
+      213: -3893853690257870293
+    second: InkJump1_153
+  - first:
+      213: 5445286392379957281
+    second: InkJump1_154
+  - first:
+      213: 5389827012504661223
+    second: InkJump1_155
+  - first:
+      213: -7659250631793973351
+    second: InkJump1_156
+  - first:
+      213: 3473263035893955818
+    second: InkJump1_157
+  - first:
+      213: -6672795132415449837
+    second: InkJump1_158
+  - first:
+      213: -5625328723977813578
+    second: InkJump1_159
+  - first:
+      213: -5897984343610012939
+    second: InkJump1_160
+  - first:
+      213: 1482065039456405098
+    second: InkJump1_161
+  - first:
+      213: 4814313825441370962
+    second: InkJump1_162
+  - first:
+      213: 7430536965088686664
+    second: InkJump1_163
+  - first:
+      213: 6936871266056630442
+    second: InkJump1_164
+  - first:
+      213: 7218730594480197737
+    second: InkJump1_165
+  - first:
+      213: 1071691001260576085
+    second: InkJump1_166
+  - first:
+      213: 2461234445403429830
+    second: InkJump1_167
+  - first:
+      213: 1093703496336471065
+    second: InkJump1_168
+  - first:
+      213: 7735892201415135403
+    second: InkJump1_169
+  - first:
+      213: -1076612794005224506
+    second: InkJump1_170
+  - first:
+      213: 9159400655638472652
+    second: InkJump1_171
+  - first:
+      213: 7361426939828008332
+    second: InkJump1_172
+  - first:
+      213: 8609648017343091099
+    second: InkJump1_173
+  - first:
+      213: 4902549286168784784
+    second: InkJump1_174
+  - first:
+      213: 6983173380704086480
+    second: InkJump1_175
+  - first:
+      213: -269678257818417776
+    second: InkJump1_176
+  - first:
+      213: -502614409706674153
+    second: InkJump1_177
+  - first:
+      213: 5630284424940088614
+    second: InkJump1_178
+  - first:
+      213: -5295769184626724655
+    second: InkJump1_179
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,12 +583,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 750
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -116,10 +653,10 @@ TextureImporter:
       name: InkJump1_0
       rect:
         serializedVersion: 2
-        x: 699
-        y: 621
-        width: 709
-        height: 1263
+        x: 49
+        y: 1057
+        width: 18
+        height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -134,11 +671,3949 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: InkJump1_1
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 1075
+        width: 10
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 640949286598bad60800000000000000
+      internalID: 7902560975802634310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_2
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 0
+        width: 957
+        height: 1077
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51ba194b253b884e0800000000000000
+      internalID: -1979134868431197419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_3
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 1075
+        width: 11
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63ef71b0f1520f6b0800000000000000
+      internalID: -5264667149135774154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_4
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 645
+        width: 352
+        height: 435
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bdfc7f75028a0220800000000000000
+      internalID: 2452915907182001586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_5
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 1066
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2feb49cba55452850800000000000000
+      internalID: 6351559105489190642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_6
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 1063
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81f61fa63d274a440800000000000000
+      internalID: 4946204543117520664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1044
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7392f3fc68fbe300800000000000000
+      internalID: 282592548473705342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_8
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 1037
+        width: 30
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5167b742e6a69d8d0800000000000000
+      internalID: -2821106670279887339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_9
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 1043
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d802e898696adc10800000000000000
+      internalID: 2079090075947370707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_10
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 1034
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a0ab2d5a0adb80b0800000000000000
+      internalID: -5725242763223785303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1029
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e5d2c155d772f2f0800000000000000
+      internalID: -940557614083549726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1025
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d491a87a3abb3deb0800000000000000
+      internalID: -4696203674852386483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_13
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 1028
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3ffc6473037f6c80800000000000000
+      internalID: -8327310727309361347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_14
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 1030
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a6b8fcd1ace21a10800000000000000
+      internalID: 1878824174508095143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_15
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 1022
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06c043cd7674f9b50800000000000000
+      internalID: 6602074090150038624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_16
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 1023
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50fb39d5d5516cf70800000000000000
+      internalID: 9207069978951663365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_17
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 989
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d88bad534c3b9fd0800000000000000
+      internalID: -2334205721829472045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_18
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 990
+        width: 31
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a06d2230244e973f0800000000000000
+      internalID: -902439278139484662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_19
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 998
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ac3fd6ff0ab15860800000000000000
+      internalID: 7516993830787169445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_20
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 991
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2122ae5cedd403760800000000000000
+      internalID: 7435528603987223058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_21
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 993
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffb13837db8ad3400800000000000000
+      internalID: 305585881371319295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_22
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 992
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f196af0223258c050800000000000000
+      internalID: 5820992893631490335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_23
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 979
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01bea34d4522a9ca0800000000000000
+      internalID: -6009453005039277296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_24
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 980
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 896cb0a63f3ceb600800000000000000
+      internalID: 486041260026218136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_25
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 982
+        width: 24
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c77163ecb6832dcd0800000000000000
+      internalID: -2534901604583860356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_26
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 973
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6020b175d9f5d6610800000000000000
+      internalID: 1616052970671768070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_27
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 944
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07f19f908dc8a25c0800000000000000
+      internalID: -4239421239707754640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_28
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 956
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c7d483df483f84d0800000000000000
+      internalID: -3130221300496934969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_29
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 962
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e53e56b25148a5b0800000000000000
+      internalID: -5356959933254453790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_30
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 958
+        width: 36
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97f294d5528ae8810800000000000000
+      internalID: 1769536582035517305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_31
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 948
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bca60878fafa42c80800000000000000
+      internalID: -8348354640810579253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_32
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 950
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9d72f62283f66600800000000000000
+      internalID: 461323752176778654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_33
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 941
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa0882a42daa0e060800000000000000
+      internalID: 6980767242588291247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_34
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 944
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8879af1b4cd8a6f0800000000000000
+      internalID: -673045929080031091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_35
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 954
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27008db0a8ee3b620800000000000000
+      internalID: 2788834870944071794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_36
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 935
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 000bb0df994d1c050800000000000000
+      internalID: 5819165951379877888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_37
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 934
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c505898bae70cd5f0800000000000000
+      internalID: -730700334840131492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_38
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 945
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 038af7320fdb71040800000000000000
+      internalID: 4618368781977102384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_39
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 931
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a34b2e73d36f95f20800000000000000
+      internalID: 3412028935500903482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_40
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 929
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcf972e31c3b55180800000000000000
+      internalID: -9127191427243597877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_41
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 918
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8db5a52b79e5fcba0800000000000000
+      internalID: -6066526167419429928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_42
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 919
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb0e5538ae83c5170800000000000000
+      internalID: 8168466404020183230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_43
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 918
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f0265ec03634c9f0800000000000000
+      internalID: -449174479582125832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_44
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 901
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e7b6684ac363bba0800000000000000
+      internalID: -6074401751943432219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_45
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 916
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9be70c43e4d2b1850800000000000000
+      internalID: 6348717913624575673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_46
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 905
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f807910b886e5ef60800000000000000
+      internalID: 8063104182621139087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_47
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 904
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d12ad80e751b942e0800000000000000
+      internalID: -2140985156850310627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_48
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 901
+        width: 37
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee741318eea2080c0800000000000000
+      internalID: -4575610017550350354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_49
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 903
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ad7ba6b0d0d23a20800000000000000
+      internalID: 3040722293264973219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_50
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 897
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a70dd48ce7bc3c70800000000000000
+      internalID: 8952232385774946216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_51
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 899
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 265b4ebc885cc8620800000000000000
+      internalID: 2777812261507741026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_52
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 905
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbe7130207a42fda0800000000000000
+      internalID: -5912581515347132739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_53
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 907
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3f6cbe12051f0ce0800000000000000
+      internalID: -1436906657258115265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_54
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 896
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed1798f746ecab540800000000000000
+      internalID: 5024555265316975070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_55
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 888
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af2e04f77ff3c06a0800000000000000
+      internalID: -6481735431468555526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_56
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 892
+        width: 19
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7070fa880a03e520800000000000000
+      internalID: 2730036830923681916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_57
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 893
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40898d45198d36310800000000000000
+      internalID: 1397198428120324100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_58
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 855
+        width: 43
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b322c68f189a6350800000000000000
+      internalID: 6010783913851626420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_59
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 880
+        width: 25
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edb9d32a5a06af710800000000000000
+      internalID: 1727799671557823454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_60
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 862
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2939f19ca0594520800000000000000
+      internalID: 2686767354816837932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_61
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 855
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e41e6a7ba4bced260800000000000000
+      internalID: 7124355182315888974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_62
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 841
+        width: 68
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45b03891105284fb0800000000000000
+      internalID: -4663436727488935084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_63
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 875
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ca6b40f644ac8af0800000000000000
+      internalID: -392758442901935418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_64
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 860
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e39dfc6bbb888f10800000000000000
+      internalID: 2272219649112118245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_65
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 852
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98c638de82094dd10800000000000000
+      internalID: 2149501427620473993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_66
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 867
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea5cb1038da51f330800000000000000
+      internalID: 3742872649888155054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_67
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 874
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c545ffea6340baf50800000000000000
+      internalID: 6893608287531390044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_68
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 869
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b35c14cfa7edfd120800000000000000
+      internalID: 2440914142857643323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_69
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 870
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d8f6d22ba7595ae0800000000000000
+      internalID: -1560119403371628332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_70
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 852
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5ca9479452c8ce10800000000000000
+      internalID: 2218236485051198557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_71
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 845
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7c664a8d50f18fe0800000000000000
+      internalID: -1188404542106604422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_72
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 783
+        width: 55
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4b8dd00eec5cba50800000000000000
+      internalID: 6538202936321608527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_73
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 840
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cab588268fb30d50800000000000000
+      internalID: 6702411253383805632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_74
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 824
+        width: 15
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7efd7645cfa479070800000000000000
+      internalID: 8113035701339545575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_75
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 816
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d27901658f336ccb0800000000000000
+      internalID: -4844127207501555923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_76
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 809
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f5e0d0498a853040800000000000000
+      internalID: 4626756514295637491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_77
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 810
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 080bf151a9430c1a0800000000000000
+      internalID: -6791370401690701696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_78
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 807
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d77495cfe4dcee500800000000000000
+      internalID: 427504753771628413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_79
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 808
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bc2223944e8c16b0800000000000000
+      internalID: -5324224234281358160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_80
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 815
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3982ccf0a9e19da60800000000000000
+      internalID: 7699218685005408403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_81
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 806
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 207307b6ea8258ad0800000000000000
+      internalID: -2700707671946807550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_82
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 784
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc76dcfe15a900360800000000000000
+      internalID: 7133871486461110223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_83
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 764
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07751496fa4406bd0800000000000000
+      internalID: -2639033861463255184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 725
+        width: 37
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f782e6ce2158c2970800000000000000
+      internalID: 8731500093887096959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_85
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 729
+        width: 41
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e852e5a5fab78f3e0800000000000000
+      internalID: -2019728439810054770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_86
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 673
+        width: 9
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a53ad5eed2f005f00800000000000000
+      internalID: 1103398598652830554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_87
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 677
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c59640ea35cbe160800000000000000
+      internalID: 7055950097867511235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_88
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 682
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5fd58ecb69b7e3d0800000000000000
+      internalID: -3177367139409076385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_89
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 673
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90de0be5ed24f52e0800000000000000
+      internalID: -2134914175511499511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_90
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 669
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7af505874ad01d670800000000000000
+      internalID: 8561639366652354471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_91
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 663
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96d4d7891974dd810800000000000000
+      internalID: 1791666917417504105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_92
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 651
+        width: 31
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddcfd5234b2e88600800000000000000
+      internalID: 470875424627227869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_93
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 658
+        width: 17
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b33c3c810ae83db0800000000000000
+      internalID: -4811838909476752459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_94
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 664
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9798a04765e29c820800000000000000
+      internalID: 2938931180684872057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_95
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 651
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dde89ac1c655e0170800000000000000
+      internalID: 8146542698785509085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_96
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 659
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e0e54237ad533400800000000000000
+      internalID: 302688572648317157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_97
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 659
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ebb06f1a7f84bf20800000000000000
+      internalID: 3437530170265746407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_98
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 663
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 197d9c3cf021b4780800000000000000
+      internalID: -8697838396417386607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_99
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 602
+        width: 54
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b42bb7b5268b68da0800000000000000
+      internalID: -5942859925687651765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_100
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 634
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d37b823eb86ba6cb0800000000000000
+      internalID: -4869879335119964355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_101
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 617
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7d5250ba34593cc0800000000000000
+      internalID: -3730858205256721026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_102
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 564
+        width: 41
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb396d49a5fe2c560800000000000000
+      internalID: 7332686315635774395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_103
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 599
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a8665d76f58f6420800000000000000
+      internalID: 2625464401491552422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_104
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 608
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 256c07e7eda533d50800000000000000
+      internalID: 6715811380990101074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_105
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 586
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e2e57e27c8629270800000000000000
+      internalID: 8255776271610798825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_106
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 591
+        width: 21
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ac5a500e2ee0d280800000000000000
+      internalID: -9020448172281275224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_107
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 559
+        width: 15
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be9e02d5dd606d9d0800000000000000
+      internalID: -2750002974643131925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_108
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 568
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c1be45d4d4421a00800000000000000
+      internalID: 725718170862531009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_109
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 545
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10856411c042f40f0800000000000000
+      internalID: -1130645347198674943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_110
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 560
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7bb621dded95fe40800000000000000
+      internalID: 5689627348994276219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_111
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 507
+        width: 16
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 841c7064eb93b3af0800000000000000
+      internalID: -415675051220156088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_112
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 533
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e675e8e83b7414220800000000000000
+      internalID: 2468332907292153710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_113
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 544
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86770f65b14d64960800000000000000
+      internalID: 7585983836239984488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_114
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 544
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84cde38f7aca53780800000000000000
+      internalID: -8703860867399230392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_115
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 537
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e8d3cd6f547d7830800000000000000
+      internalID: 4070537591425063145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_116
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 539
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3e3719795d0b2710800000000000000
+      internalID: 1669442764805717565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_117
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 521
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bed49aa648b232730800000000000000
+      internalID: 3973067143996067307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_118
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 514
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2984def00cb124e0800000000000000
+      internalID: -2008117246369167058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_119
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 506
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efbf982522286eba0800000000000000
+      internalID: -6060013164655150082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_120
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 472
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cc6cd68a0d3fd6b0800000000000000
+      internalID: -5269425923578630970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_121
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 459
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc67668e112ed8680800000000000000
+      internalID: -8751089934369655093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_122
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 482
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b848004de48e52840800000000000000
+      internalID: 5198816770131002507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_123
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 473
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a786a9b47b197dbe0800000000000000
+      internalID: -1452532138370242438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_124
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 477
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d960dd35f7d300d0800000000000000
+      internalID: -3457682640586380839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_125
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 478
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9746b36063029560800000000000000
+      internalID: 7318916056955111326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_126
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 455
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c675c05c0ee7d2630800000000000000
+      internalID: 3903915955843782508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_127
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 472
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b468ce4486e43da70800000000000000
+      internalID: 8850503902453073483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_128
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 469
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 165d9189a05ca5d00800000000000000
+      internalID: 962298119689196897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_129
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 467
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46256a21eeda95ed0800000000000000
+      internalID: -2424715686335589788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_130
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 465
+        width: 16
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70471cba5c7f65570800000000000000
+      internalID: 8455217778796884999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_131
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 457
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e5f706dae203b0d0800000000000000
+      internalID: -3408377285352884766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_132
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 461
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4982fadbc59497690800000000000000
+      internalID: -7603965833170179948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_133
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 451
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb3e634127513d0e0800000000000000
+      internalID: -2246428209418148933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_134
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 439
+        width: 35
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 798bb58a5658f4c90800000000000000
+      internalID: -7183376208969877353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_135
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 450
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9c2a3677073a4070800000000000000
+      internalID: 8091340185712340122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_136
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 451
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cfa0d68ba8bfd8b0800000000000000
+      internalID: -5125174804083593280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_137
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 424
+        width: 35
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16b09b78a5f8d2a80800000000000000
+      internalID: -8489972103536637087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_138
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 430
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55de3c1d5e1749a30800000000000000
+      internalID: 4221123982633725269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_139
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 401
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35c6abcfe313f5d50800000000000000
+      internalID: 6728150514912619603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_140
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 403
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 138450630d4dfac70800000000000000
+      internalID: 8984633772352030769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_141
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 401
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04df78076a317e3f0800000000000000
+      internalID: -871706397299442368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_142
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 401
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39043be9e5d5d6fd0800000000000000
+      internalID: -2347117169819303789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_143
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 402
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6de5fddd55bbc6b60800000000000000
+      internalID: 7740767837012057814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_144
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67383f0c05f000d20800000000000000
+      internalID: 3242608571215741814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_145
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 374
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00d5828922b07fcb0800000000000000
+      internalID: -4830379832121991936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_146
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 361
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5db390b606ebc9550800000000000000
+      internalID: 6169014910912642005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_147
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 346
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1280018e4c23e1780800000000000000
+      internalID: -8710468807999616991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_148
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 359
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b0cb1ab4da4009a0800000000000000
+      internalID: -6268928403783827272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_149
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 331
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e67b3c4c757aec590800000000000000
+      internalID: -7651994721450739858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_150
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 336
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ae8caf55acecd0a0800000000000000
+      internalID: -6855344337745834334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_151
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 314
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4acf776e1b8d7690800000000000000
+      internalID: -7602767633229821362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_152
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 317
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fa701fbd4c5566f0800000000000000
+      internalID: -692045478743737615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_153
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 302
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b22f5d003b046f9c0800000000000000
+      internalID: -3893853690257870293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_154
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 289
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 120631e9f1b819b40800000000000000
+      internalID: 5445286392379957281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_155
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 274
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ec25218c138cca40800000000000000
+      internalID: 5389827012504661223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_156
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 281
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 997eb3e7120e4b590800000000000000
+      internalID: -7659250631793973351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_157
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 182
+        width: 120
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aec34f93452833030800000000000000
+      internalID: 3473263035893955818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_158
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 273
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 315eb695e287563a0800000000000000
+      internalID: -6672795132415449837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_159
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 269
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b1408e6451dee1b0800000000000000
+      internalID: -5625328723977813578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_160
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 252
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fa4f440d76262ea0800000000000000
+      internalID: -5897984343610012939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_161
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 91
+        width: 298
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6603d21d4a519410800000000000000
+      internalID: 1482065039456405098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_162
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 77
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2535faabae0efc240800000000000000
+      internalID: 4814313825441370962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_163
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 127
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 842358640029e1760800000000000000
+      internalID: 7430536965088686664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_164
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 89
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa07be1d9a7b44060800000000000000
+      internalID: 6936871266056630442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_165
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 86
+        width: 43
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9609c3daa351e2460800000000000000
+      internalID: 7218730594480197737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_166
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 70
+        width: 51
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55d8e1f99496fde00800000000000000
+      internalID: 1071691001260576085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_167
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 58
+        width: 81
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cb1a3b10bf082220800000000000000
+      internalID: 2461234445403429830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_168
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 0
+        width: 228
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 914fcb4098d9d2f00800000000000000
+      internalID: 1093703496336471065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_169
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba0501e78f86b5b60800000000000000
+      internalID: 7735892201415135403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_170
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 16
+        width: 60
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c38da43e5a1f01f0800000000000000
+      internalID: -1076612794005224506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_171
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 0
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc7afc22e5abc1f70800000000000000
+      internalID: 9159400655638472652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_172
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 0
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c85707c9cca092660800000000000000
+      internalID: 7361426939828008332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_173
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 0
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9191e2814d9b7770800000000000000
+      internalID: 8609648017343091099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_174
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 0
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09f6fe7d99a590440800000000000000
+      internalID: 4902549286168784784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_175
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 4
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d9a4d9f03739e060800000000000000
+      internalID: 6983173380704086480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_176
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 0
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0954617ad09e14cf0800000000000000
+      internalID: -269678257818417776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_177
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 0
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 718e07a7bda5609f0800000000000000
+      internalID: -502614409706674153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_178
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 0
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62de7fc9ad9c22e40800000000000000
+      internalID: 5630284424940088614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump1_179
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 0
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d03dd91cf5a186b0800000000000000
+      internalID: -5295769184626724655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -149,6 +4624,185 @@ TextureImporter:
       entries: []
     nameFileIdTable:
       InkJump1_0: 8143275182815808439
+      InkJump1_1: 7902560975802634310
+      InkJump1_10: -5725242763223785303
+      InkJump1_100: -4869879335119964355
+      InkJump1_101: -3730858205256721026
+      InkJump1_102: 7332686315635774395
+      InkJump1_103: 2625464401491552422
+      InkJump1_104: 6715811380990101074
+      InkJump1_105: 8255776271610798825
+      InkJump1_106: -9020448172281275224
+      InkJump1_107: -2750002974643131925
+      InkJump1_108: 725718170862531009
+      InkJump1_109: -1130645347198674943
+      InkJump1_11: -940557614083549726
+      InkJump1_110: 5689627348994276219
+      InkJump1_111: -415675051220156088
+      InkJump1_112: 2468332907292153710
+      InkJump1_113: 7585983836239984488
+      InkJump1_114: -8703860867399230392
+      InkJump1_115: 4070537591425063145
+      InkJump1_116: 1669442764805717565
+      InkJump1_117: 3973067143996067307
+      InkJump1_118: -2008117246369167058
+      InkJump1_119: -6060013164655150082
+      InkJump1_12: -4696203674852386483
+      InkJump1_120: -5269425923578630970
+      InkJump1_121: -8751089934369655093
+      InkJump1_122: 5198816770131002507
+      InkJump1_123: -1452532138370242438
+      InkJump1_124: -3457682640586380839
+      InkJump1_125: 7318916056955111326
+      InkJump1_126: 3903915955843782508
+      InkJump1_127: 8850503902453073483
+      InkJump1_128: 962298119689196897
+      InkJump1_129: -2424715686335589788
+      InkJump1_13: -8327310727309361347
+      InkJump1_130: 8455217778796884999
+      InkJump1_131: -3408377285352884766
+      InkJump1_132: -7603965833170179948
+      InkJump1_133: -2246428209418148933
+      InkJump1_134: -7183376208969877353
+      InkJump1_135: 8091340185712340122
+      InkJump1_136: -5125174804083593280
+      InkJump1_137: -8489972103536637087
+      InkJump1_138: 4221123982633725269
+      InkJump1_139: 6728150514912619603
+      InkJump1_14: 1878824174508095143
+      InkJump1_140: 8984633772352030769
+      InkJump1_141: -871706397299442368
+      InkJump1_142: -2347117169819303789
+      InkJump1_143: 7740767837012057814
+      InkJump1_144: 3242608571215741814
+      InkJump1_145: -4830379832121991936
+      InkJump1_146: 6169014910912642005
+      InkJump1_147: -8710468807999616991
+      InkJump1_148: -6268928403783827272
+      InkJump1_149: -7651994721450739858
+      InkJump1_15: 6602074090150038624
+      InkJump1_150: -6855344337745834334
+      InkJump1_151: -7602767633229821362
+      InkJump1_152: -692045478743737615
+      InkJump1_153: -3893853690257870293
+      InkJump1_154: 5445286392379957281
+      InkJump1_155: 5389827012504661223
+      InkJump1_156: -7659250631793973351
+      InkJump1_157: 3473263035893955818
+      InkJump1_158: -6672795132415449837
+      InkJump1_159: -5625328723977813578
+      InkJump1_16: 9207069978951663365
+      InkJump1_160: -5897984343610012939
+      InkJump1_161: 1482065039456405098
+      InkJump1_162: 4814313825441370962
+      InkJump1_163: 7430536965088686664
+      InkJump1_164: 6936871266056630442
+      InkJump1_165: 7218730594480197737
+      InkJump1_166: 1071691001260576085
+      InkJump1_167: 2461234445403429830
+      InkJump1_168: 1093703496336471065
+      InkJump1_169: 7735892201415135403
+      InkJump1_17: -2334205721829472045
+      InkJump1_170: -1076612794005224506
+      InkJump1_171: 9159400655638472652
+      InkJump1_172: 7361426939828008332
+      InkJump1_173: 8609648017343091099
+      InkJump1_174: 4902549286168784784
+      InkJump1_175: 6983173380704086480
+      InkJump1_176: -269678257818417776
+      InkJump1_177: -502614409706674153
+      InkJump1_178: 5630284424940088614
+      InkJump1_179: -5295769184626724655
+      InkJump1_18: -902439278139484662
+      InkJump1_19: 7516993830787169445
+      InkJump1_2: -1979134868431197419
+      InkJump1_20: 7435528603987223058
+      InkJump1_21: 305585881371319295
+      InkJump1_22: 5820992893631490335
+      InkJump1_23: -6009453005039277296
+      InkJump1_24: 486041260026218136
+      InkJump1_25: -2534901604583860356
+      InkJump1_26: 1616052970671768070
+      InkJump1_27: -4239421239707754640
+      InkJump1_28: -3130221300496934969
+      InkJump1_29: -5356959933254453790
+      InkJump1_3: -5264667149135774154
+      InkJump1_30: 1769536582035517305
+      InkJump1_31: -8348354640810579253
+      InkJump1_32: 461323752176778654
+      InkJump1_33: 6980767242588291247
+      InkJump1_34: -673045929080031091
+      InkJump1_35: 2788834870944071794
+      InkJump1_36: 5819165951379877888
+      InkJump1_37: -730700334840131492
+      InkJump1_38: 4618368781977102384
+      InkJump1_39: 3412028935500903482
+      InkJump1_4: 2452915907182001586
+      InkJump1_40: -9127191427243597877
+      InkJump1_41: -6066526167419429928
+      InkJump1_42: 8168466404020183230
+      InkJump1_43: -449174479582125832
+      InkJump1_44: -6074401751943432219
+      InkJump1_45: 6348717913624575673
+      InkJump1_46: 8063104182621139087
+      InkJump1_47: -2140985156850310627
+      InkJump1_48: -4575610017550350354
+      InkJump1_49: 3040722293264973219
+      InkJump1_5: 6351559105489190642
+      InkJump1_50: 8952232385774946216
+      InkJump1_51: 2777812261507741026
+      InkJump1_52: -5912581515347132739
+      InkJump1_53: -1436906657258115265
+      InkJump1_54: 5024555265316975070
+      InkJump1_55: -6481735431468555526
+      InkJump1_56: 2730036830923681916
+      InkJump1_57: 1397198428120324100
+      InkJump1_58: 6010783913851626420
+      InkJump1_59: 1727799671557823454
+      InkJump1_6: 4946204543117520664
+      InkJump1_60: 2686767354816837932
+      InkJump1_61: 7124355182315888974
+      InkJump1_62: -4663436727488935084
+      InkJump1_63: -392758442901935418
+      InkJump1_64: 2272219649112118245
+      InkJump1_65: 2149501427620473993
+      InkJump1_66: 3742872649888155054
+      InkJump1_67: 6893608287531390044
+      InkJump1_68: 2440914142857643323
+      InkJump1_69: -1560119403371628332
+      InkJump1_7: 282592548473705342
+      InkJump1_70: 2218236485051198557
+      InkJump1_71: -1188404542106604422
+      InkJump1_72: 6538202936321608527
+      InkJump1_73: 6702411253383805632
+      InkJump1_74: 8113035701339545575
+      InkJump1_75: -4844127207501555923
+      InkJump1_76: 4626756514295637491
+      InkJump1_77: -6791370401690701696
+      InkJump1_78: 427504753771628413
+      InkJump1_79: -5324224234281358160
+      InkJump1_8: -2821106670279887339
+      InkJump1_80: 7699218685005408403
+      InkJump1_81: -2700707671946807550
+      InkJump1_82: 7133871486461110223
+      InkJump1_83: -2639033861463255184
+      InkJump1_84: 8731500093887096959
+      InkJump1_85: -2019728439810054770
+      InkJump1_86: 1103398598652830554
+      InkJump1_87: 7055950097867511235
+      InkJump1_88: -3177367139409076385
+      InkJump1_89: -2134914175511499511
+      InkJump1_9: 2079090075947370707
+      InkJump1_90: 8561639366652354471
+      InkJump1_91: 1791666917417504105
+      InkJump1_92: 470875424627227869
+      InkJump1_93: -4811838909476752459
+      InkJump1_94: 2938931180684872057
+      InkJump1_95: 8146542698785509085
+      InkJump1_96: 302688572648317157
+      InkJump1_97: 3437530170265746407
+      InkJump1_98: -8697838396417386607
+      InkJump1_99: -5942859925687651765
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
