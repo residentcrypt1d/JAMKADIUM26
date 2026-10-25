@@ -31,77 +31,77 @@ public class AudioManager : MonoBehaviour
         fade = Time.deltaTime*fadeTime;
     }
 
-    void ClearCatTracks()
+    public void ClearCatTracks()
     {
         inkSelected = false;
         charSelected = false;
         stampSelected = false;
     }
 
-    void SetCatTrackCharcoal()
+    public void SetCatTrackCharcoal()
     {
         ClearCatTracks();
         charSelected = true;
     }
 
-    void SetCatTrackStamp()
+    public void SetCatTrackStamp()
     {
         ClearCatTracks();
         stampSelected = true;
     }
 
-    void SetCatTrackInk()
+    public void SetCatTrackInk()
     {
         ClearCatTracks();
         inkSelected = true;
     }
 
-    void PlaySoundClick()
+    public void PlaySoundClick()
     {
         FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/UI/sfx_ui_mouseClick");
     }
 
-    void PlaySoundLevelClear()
+    public void PlaySoundLevelClear()
     {
         FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/UI/sfx_ui_levelClear");
     }
 
-    void PlaySoundLevelFail()
+    public void PlaySoundLevelFail()
     {
         FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/UI/sfx_ui_levelFail");
     }
 
-    void PlaySoundNeg()
+    public void PlaySoundNeg()
     {
         FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/UI/sfx_ui_neg");
     }
 
-    void PlaySoundPos()
+    public void PlaySoundPos()
     {
         FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/UI/sfx_ui_pos");
     }
 
-    void PlaySoundStartLevel()
+    public void PlaySoundStartLevel()
     {
         FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/UI/sfx_ui_startLevel");
     }
 
-    void PlaySoundUnavailable()
+    public void PlaySoundUnavailable()
     {
         FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/UI/sfx_ui_unavailable");
     }
 
-    void PlaySoundCatInk()
+    public void PlaySoundCatInk()
     {
         FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/catSelect/sfx_meow_ink");
     }
 
-    void PlaySoundCatCharcoal()
+    public void PlaySoundCatCharcoal()
     {
         FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/catSelect/sfx_meow_char");
     }
 
-    void PlaySoundCatStamp()
+    public void PlaySoundCatStamp()
     {
         FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/catSelect/sfx_meow_stamp");
     }

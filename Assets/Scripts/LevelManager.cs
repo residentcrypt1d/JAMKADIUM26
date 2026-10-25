@@ -79,6 +79,7 @@ public class LevelManager : MonoBehaviour
         {
             if (click.WasPressedThisFrame() && !Cat.CatMoving)
             {
+                AudioManager.instance.PlaySoundClick();
                 ProcessClick(tile);
             }
 
