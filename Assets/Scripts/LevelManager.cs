@@ -30,7 +30,7 @@ public class LevelManager : MonoBehaviour
     [SerializeField] private Tile potentialDestinationTile;
     [SerializeField] private Tile potentialPaintTile;
     
-    [SerializeField] private Tile inkTile;
+    [SerializeField] private Tile[] inkTiles;
     [SerializeField] private Tile charcoalTile;
     [SerializeField] private Tile stampTile;
     
@@ -47,11 +47,11 @@ public class LevelManager : MonoBehaviour
         click = InputSystem.actions.FindAction("Click");
     }
 
-    async void Start()
+    void Start()
     {
         selectionMap = Instantiate(selectionMapPrefab, transform).GetComponent<Tilemap>();
         paintMap = Instantiate(paintMapPrefab, transform).GetComponent<Tilemap>();
-        if(SceneLoader.instance.levelLoaded != -1)
+        if(SceneLoader.instance?.levelLoaded > -1)
         {
             currLevel = SceneLoader.instance.levelLoaded - 1;
         }
@@ -159,7 +159,7 @@ public class LevelManager : MonoBehaviour
                 switch (w.paintedBy)
                 {
                     case CatType.Ink:
-                        paintMap.SetTile(w.gridPosition, inkTile);
+                        paintMap.SetTile(w.gridPosition, inkTiles[((w.gridPosition.x + w.gridPosition.y) * 17) % inkTiles.Length]);
                         break;
                     case CatType.Charcoal:
                         paintMap.SetTile(w.gridPosition, charcoalTile);
@@ -195,7 +195,7 @@ public class LevelManager : MonoBehaviour
 
         walkableTiles = GetComponentsInChildren<WalkableTile>().ToList();
         
-        CameraAutoResize.ResizeTo(tilemap.localBounds.center, tilemap.localBounds);
+        CameraAutoResize.ResizeTo(tilemap.cellBounds.center, tilemap.localBounds);
         
         selectionMap.ClearAllTiles();
         paintMap.ClearAllTiles();

@@ -80,7 +80,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 3
   m_MaskInteraction: 0
   m_Sprite: {fileID: 1075993247170539406, guid: f0d271ad15451ff4c9d85f9b615c2f50, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -104,6 +104,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d351ff8a673ef424bb738b1b38d7201f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InkCat
+  transitionTime: 1
   moveCurve:
     serializedVersion: 2
     m_Curve:
@@ -129,4 +130,3 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   currTile: {fileID: 0}
-  transitionTime: 1
