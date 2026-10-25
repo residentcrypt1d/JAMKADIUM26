@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{93f48dd9-fd34-4e3d-b4cf-a661b9feef26}">
 		<property name="assetPath">
-			<value>sfx_cat_charcoal_02.wav</value>
+			<value>SFX/sfx_cat_charcoal_02.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>
