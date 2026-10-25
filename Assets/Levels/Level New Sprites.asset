@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6951070ce9c265b41a1af93d726bbe42, type: 3}
   m_Name: Level New Sprites
   m_EditorClassIdentifier: Assembly-CSharp::Level
-  levelPrefab: {fileID: 8625393450885834537, guid: 764223f349548154c8ef052c5ce6b673, type: 3}
+  levelPrefab: {fileID: 3002465897345887599, guid: 1ddfc0f8471b824498a7082e4a2f9f04, type: 3}
   threeStarThreshold: 5
   twoStarThreshold: 7
   oneStarThreshold: 10

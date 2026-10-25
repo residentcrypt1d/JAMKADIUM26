@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class SpawnerTile : WalkableTile
@@ -31,5 +32,26 @@ public class SpawnerTile : WalkableTile
         occupants.Add(catComponent);
         catComponent.currTile = this;
         //catComponent.gridPos = gridPosition;
+    }
+
+    private void OnDrawGizmos()
+    {
+        if (catPrefab == null) return;
+
+        if (catPrefab.GetComponent<InkCat>())
+        {
+            Gizmos.color = Color.black;
+            Gizmos.DrawSphere(transform.position, 0.1f);
+        }
+        else if (catPrefab.GetComponent<CharcoalCat>())
+        {
+            Gizmos.color = Color.gray;
+            Gizmos.DrawSphere(transform.position, 0.1f);
+        }
+        else if (catPrefab.GetComponent<StampCat>())
+        {
+            Gizmos.color = Color.red;
+            Gizmos.DrawSphere(transform.position, 0.1f);
+        }
     }
 }
