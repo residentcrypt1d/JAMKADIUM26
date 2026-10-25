@@ -15,6 +15,10 @@ public class TransSceneLoader : MonoBehaviour
     {
         SceneLoader.instance.SwapScenes();
     }
+    public void UnloadTrans()
+    {
+        SceneLoader.instance.UnloadTransitionScene();
+    }
     public void StartTransOut()
     {
         transAnim.SetTrigger("StartTransOut");

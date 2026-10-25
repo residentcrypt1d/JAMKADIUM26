@@ -33,6 +33,10 @@ public class LevelManager : MonoBehaviour
 
     void Start()
     {
+        if(SceneLoader.instance.levelLoaded != -1)
+        {
+            currLevel = SceneLoader.instance.levelLoaded - 1;
+        }
         LoadLevel(currLevel);
     }
 
