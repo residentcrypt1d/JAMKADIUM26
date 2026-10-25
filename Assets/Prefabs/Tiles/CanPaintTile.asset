@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: CanPaintTile
   m_EditorClassIdentifier: UnityEngine.dll::UnityEngine.Tilemaps.Tile
   m_Sprite: {fileID: 586176187890799734, guid: eaf78577bd414b94599d8ddcebbcd438, type: 3}
-  m_Color: {r: 0, g: 0.034508705, b: 1, a: 0.29803923}
+  m_Color: {r: 0, g: 0.034508705, b: 1, a: 1}
   m_Transform:
     e00: 1
     e01: 0
