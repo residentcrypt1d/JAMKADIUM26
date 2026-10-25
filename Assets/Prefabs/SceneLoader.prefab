@@ -45,6 +45,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SceneLoader
   transitionSceneName: TransitionScene
+  levelSceneName: SampleScene
+  levelLoaded: -1
   doneLoadingEvent:
     m_PersistentCalls:
       m_Calls: []

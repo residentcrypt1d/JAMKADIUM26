@@ -8,9 +8,11 @@ public class SceneLoader : MonoBehaviour
 {
     public static SceneLoader instance;
     [SerializeField] private string transitionSceneName;
+    [SerializeField] private string levelSceneName;
+    [HideInInspector] public int levelLoaded = -1;
     private string targetScene;
     private string prevScene;
-    public UnityEvent doneLoadingEvent = new UnityEvent();
+    public UnityEvent doneLoadingEvent = new();
     
     void Awake()
     {
@@ -31,6 +33,14 @@ public class SceneLoader : MonoBehaviour
         targetScene = sceneName;
     }
 
+    public void StartLevelWithNum(int levelNum)
+    {
+        levelLoaded = levelNum;
+        prevScene = SceneManager.GetActiveScene().name;
+        SceneManager.LoadSceneAsync(transitionSceneName, LoadSceneMode.Additive); 
+        targetScene = levelSceneName;
+    }
+
     public void UnloadTransitionScene()
     {
         SceneManager.UnloadSceneAsync(transitionSceneName);
@@ -45,6 +55,7 @@ public class SceneLoader : MonoBehaviour
     {
         yield return SceneManager.UnloadSceneAsync(prevScene);
         yield return SceneManager.LoadSceneAsync(targetScene, LoadSceneMode.Additive);
+        SceneManager.SetActiveScene(SceneManager.GetSceneByName(targetScene));
         doneLoadingEvent.Invoke();
     }
 }
