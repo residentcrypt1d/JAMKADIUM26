@@ -26,11 +26,7 @@ public class GameHandler : MonoBehaviour
         {
             playerScores[i] = -1;
         }
-    }
-
-    void Start()
-    {
-
+        SaveSystem.Load();
     }
 
     public void RecordScore(int levelNum, int score)
@@ -39,7 +35,11 @@ public class GameHandler : MonoBehaviour
         {
             completedLevels++;
         }
-        playerScores[levelNum] = score;
+        if(playerScores[levelNum] > score)
+        {
+            playerScores[levelNum] = score;
+        }
+        SaveSystem.Save();
     }
 
     public int FindTier(int levelNum)
@@ -62,4 +62,28 @@ public class GameHandler : MonoBehaviour
             return 0;
         }
     }
+
+    public int GetThreeStarThreshold(int levelNum)
+    {
+        return levels[levelNum].threeStarThreshold;
+    }
+
+    public void Save(ref GameSaveData data)
+    {
+        data.playerScores = playerScores;
+        data.completedLevels = completedLevels;
+    }
+
+    public void Load(GameSaveData data)
+    {
+        playerScores = data.playerScores;
+        completedLevels = data.completedLevels;
+    }
 }
+
+[System.Serializable]
+    public struct GameSaveData
+    {
+        public int[] playerScores;
+        public int completedLevels;
+    }

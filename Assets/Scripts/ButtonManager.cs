@@ -6,4 +6,9 @@ public class ButtonManager : MonoBehaviour
     {
         SceneLoader.instance.LoadScene(sceneName);
     }
+
+    public void NextLevel()
+    {
+        SceneLoader.instance.StartLevelWithNum(LevelManager.instance.currLevel + 1);
+    }
 }
