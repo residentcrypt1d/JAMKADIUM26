@@ -8,10 +8,8 @@ using UnityEngine.Tilemaps;
 public class LevelManager : MonoBehaviour
 {
     public static LevelManager instance;
-    [SerializeField] private GameObject[] levels;
     [SerializeField] private GameObject selectionMapPrefab;
     [SerializeField] private GameObject paintMapPrefab;
-    
     public List<WalkableTile> walkableTiles = new List<WalkableTile>();
     [HideInInspector] public Tilemap tilemap;
     private int currLevel = 0;
@@ -176,7 +174,7 @@ public class LevelManager : MonoBehaviour
     
     public void LoadLevel(int levelNum)
     {
-        if(levelNum >= levels.Length)
+        if(levelNum >= GameHandler.instance.levels.Length)
         {
             Debug.LogError("Level " + levelNum + " does not exist.");
             return;
@@ -186,7 +184,7 @@ public class LevelManager : MonoBehaviour
         {
             Destroy(tilemap.gameObject);
         }
-        tilemap = Instantiate(levels[levelNum], transform).GetComponent<Tilemap>();
+        tilemap = Instantiate(GameHandler.instance.levels[levelNum].levelPrefab, transform).GetComponent<Tilemap>();
         if(!tilemap)
         {
             Debug.LogError("Level " + levelNum + " GameObject does not have a tilemap.");
