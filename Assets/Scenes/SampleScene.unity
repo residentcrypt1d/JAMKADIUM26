@@ -452,7 +452,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.13, y: 0.89, z: -10}
+  m_LocalPosition: {x: 0, y: 2, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -600,7 +600,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::GameHandler
   playerScores: 
   levels:
-  - {fileID: 11400000, guid: 18ccb7ad4efb6a542a0707ce94825888, type: 2}
+  - {fileID: 11400000, guid: 3bef9e32977bbad4591ab317c6d45130, type: 2}
   - {fileID: 11400000, guid: 1b47be788a9541847ac9362c2d0d7682, type: 2}
   - {fileID: 11400000, guid: 1b47be788a9541847ac9362c2d0d7682, type: 2}
   - {fileID: 11400000, guid: 1b47be788a9541847ac9362c2d0d7682, type: 2}
