@@ -54,6 +54,8 @@ public class LevelManager : MonoBehaviour
         selectionMap = Instantiate(selectionMapPrefab, transform).GetComponent<Tilemap>();
         paintMap = Instantiate(paintMapPrefab, transform).GetComponent<Tilemap>();
         
+        selectionMap.ResizeBounds();
+        
         if(SceneLoader.instance?.levelLoaded > -1)
         {
             currLevel = SceneLoader.instance.levelLoaded - 1;
@@ -167,7 +169,7 @@ public class LevelManager : MonoBehaviour
                 {
                     case CatType.Ink:
                         print(w.gridPosition);
-                        paintMap.SetTile(w.gridPosition, inkTiles[((w.gridPosition.x + w.gridPosition.y) * 17) % inkTiles.Length]);
+                        paintMap.SetTile(w.gridPosition, inkTiles[0]);
                         break;
                     case CatType.Charcoal:
                         paintMap.SetTile(w.gridPosition, charcoalTile);
