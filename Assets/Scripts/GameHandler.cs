@@ -8,7 +8,7 @@ public class GameHandler : MonoBehaviour
     public static GameHandler instance;
     public int[] playerScores;
     public Level[] levels;
-    [HideInInspector] public int completedLevels = 0;
+    public int completedLevels = 0;
 
     void Awake()
     {
@@ -22,7 +22,8 @@ public class GameHandler : MonoBehaviour
             Destroy(gameObject);
         }
         playerScores = new int[levels.Length];
-        foreach(int i in playerScores)
+        
+        for(int i = 0; i < playerScores.Length; i++)
         {
             playerScores[i] = -1;
         }
@@ -31,9 +32,13 @@ public class GameHandler : MonoBehaviour
 
     public void RecordScore(int levelNum, int score)
     {
-        if(playerScores[levelNum] == -1)
+        for(int i = 0; i < playerScores.Length; i++)
         {
-            completedLevels++;
+            completedLevels = 0;
+            if(playerScores[i] != -1)
+            {
+                completedLevels++;
+            }
         }
         if(playerScores[levelNum] > score)
         {
