@@ -9,6 +9,9 @@ public class LevelManager : MonoBehaviour
 {
     public static LevelManager instance;
     [SerializeField] private GameObject[] levels;
+    [SerializeField] private GameObject selectionMapPrefab;
+    [SerializeField] private GameObject paintMapPrefab;
+    
     public List<WalkableTile> walkableTiles = new List<WalkableTile>();
     [HideInInspector] public Tilemap tilemap;
     private int currLevel = 0;
@@ -17,6 +20,19 @@ public class LevelManager : MonoBehaviour
     private InputAction click;
     
     [HideInInspector] public Cat selectedCat;
+
+    private Tilemap selectionMap;
+    private Tilemap paintMap;
+
+    [SerializeField] private Tile cursorTile;
+    [SerializeField] private Tile canSelectTile;
+    [SerializeField] private Tile selectedCatTile;
+    [SerializeField] private Tile potentialDestinationTile;
+    [SerializeField] private Tile potentialPaintTile;
+    
+    [SerializeField] private Tile inkTile;
+    [SerializeField] private Tile charcoalTile;
+    [SerializeField] private Tile stampTile;
     
     void Awake()
     {
@@ -31,8 +47,10 @@ public class LevelManager : MonoBehaviour
         click = InputSystem.actions.FindAction("Click");
     }
 
-    void Start()
+    async void Start()
     {
+        selectionMap = Instantiate(selectionMapPrefab, transform).GetComponent<Tilemap>();
+        paintMap = Instantiate(paintMapPrefab, transform).GetComponent<Tilemap>();
         LoadLevel(currLevel);
     }
 
@@ -110,22 +128,45 @@ public class LevelManager : MonoBehaviour
 
         foreach (WalkableTile w in walkableTiles)
         {
-            if(validMoves.Contains(w.gridPosition) && inkPositions.Contains(w.gridPosition))
+            if (selectedCat && w.occupants.Contains(selectedCat))
             {
-                tilemap.SetColor(w.gridPosition, Color.purple);
+                print("This is the selected cat tile");
+                selectionMap.SetTile(w.gridPosition, selectedCatTile);
+            }
+            else if (w.occupants.Count > 0)
+            {
+                selectionMap.SetTile(w.gridPosition, canSelectTile);
             }
             else if (validMoves.Contains(w.gridPosition))
             {
-                tilemap.SetColor(w.gridPosition, Color.red);
+                selectionMap.SetTile(w.gridPosition, potentialDestinationTile);
             }
             else if(inkPositions.Contains(w.gridPosition))
             {
-                tilemap.SetColor(w.gridPosition, Color.blue);
+                selectionMap.SetTile(w.gridPosition, potentialPaintTile);
             }
-            else if(w.painted)
-                tilemap.SetColor(w.gridPosition, Color.darkSlateGray);
             else
-                tilemap.SetColor(w.gridPosition, Color.white);
+            {
+                selectionMap.SetTile(w.gridPosition, null);
+            }
+            
+            if(w.painted)
+            {
+                switch (w.paintedBy)
+                {
+                    case CatType.Ink:
+                        paintMap.SetTile(w.gridPosition, inkTile);
+                        break;
+                    case CatType.Charcoal:
+                        paintMap.SetTile(w.gridPosition, charcoalTile);
+                        break;
+                    case CatType.Stamp:
+                        paintMap.SetTile(w.gridPosition, stampTile);
+                        break;
+                }
+            }
+            else
+                paintMap.SetTile(w.gridPosition, null);
         }
     }
     
@@ -149,6 +190,11 @@ public class LevelManager : MonoBehaviour
         }
 
         walkableTiles = GetComponentsInChildren<WalkableTile>().ToList();
+        
+        CameraAutoResize.ResizeTo(tilemap.localBounds.center, tilemap.localBounds);
+        
+        selectionMap.ClearAllTiles();
+        paintMap.ClearAllTiles();
     }
 
     public void CheckCompletion()

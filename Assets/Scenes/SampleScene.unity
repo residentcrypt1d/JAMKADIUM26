@@ -131,6 +131,7 @@ GameObject:
   - component: {fileID: 519420031}
   - component: {fileID: 519420030}
   - component: {fileID: 519420033}
+  - component: {fileID: 519420034}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -262,6 +263,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: FMODUnity::FMODUnity.StudioListener
   nonRigidbodyVelocity: 0
   attenuationObject: {fileID: 0}
+--- !u!114 &519420034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d4bba9f5f45d3d479f5a5ffc5d5d88b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CameraAutoResize
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
@@ -404,10 +417,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LevelManager
   levels:
-  - {fileID: 8625393450885834537, guid: 764223f349548154c8ef052c5ce6b673, type: 3}
+  - {fileID: 5652605572733651589, guid: 522b1071843cc1340825e0a0d790552e, type: 3}
+  selectionMapPrefab: {fileID: 2014653021405075856, guid: be474fd587d9a7d4398a61b70e3b7b25, type: 3}
+  paintMapPrefab: {fileID: 829401660362350374, guid: b3a76f31071517a43ae1ea717ca7671c, type: 3}
   walkableTiles: []
   tilemap: {fileID: 0}
   selectedCat: {fileID: 0}
+  cursorTile: {fileID: 11400000, guid: d84d1722bf24f1f40b1bb6287a5a9130, type: 2}
+  canSelectTile: {fileID: 11400000, guid: a71eba6e043298844b2a0c16662b9ccb, type: 2}
+  selectedCatTile: {fileID: 11400000, guid: cef51543afa26944dabb59d20830dacd, type: 2}
+  potentialDestinationTile: {fileID: 11400000, guid: 7d5ca3d19151829499d10bfc1add9818, type: 2}
+  potentialPaintTile: {fileID: 11400000, guid: 02f39efbd5132364789a02b34ad369c7, type: 2}
+  inkTile: {fileID: 11400000, guid: 3ae692bd222dafd4fa488bee213236a2, type: 2}
+  charcoalTile: {fileID: 11400000, guid: 4313608664bf53043823c9eac2f50be4, type: 2}
+  stampTile: {fileID: 11400000, guid: a11c27d4017b0fc44ab2cc809aed01d4, type: 2}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
