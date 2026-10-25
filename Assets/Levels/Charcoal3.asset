@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6951070ce9c265b41a1af93d726bbe42, type: 3}
+  m_Name: Charcoal3
+  m_EditorClassIdentifier: Assembly-CSharp::Level
+  levelPrefab: {fileID: 924391315746128392, guid: 44d73ec0b748c8d49a463b860a4e72ef, type: 3}
+  threeStarThreshold: 11
+  twoStarThreshold: 14
+  oneStarThreshold: 18
