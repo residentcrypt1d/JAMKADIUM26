@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{03a7f684-e8a8-44ce-9b1f-44172c8196fe}">
+		<property name="name">
+			<value>stampCatSelect</value>
+		</property>
+		<relationship name="folder">
+			<destination>{6654e8c3-b8a6-4175-91b1-06f0ebe4cbfb}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{70b9a9ac-b453-40d5-8344-ff6c40dd4a2a}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{70b9a9ac-b453-40d5-8344-ff6c40dd4a2a}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
