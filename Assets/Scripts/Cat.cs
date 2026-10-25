@@ -7,9 +7,13 @@ using UnityEngine.InputSystem;
 
 public abstract class Cat : MonoBehaviour
 {
-    [SerializeField] private float transitionTime = 1.0f;
+    public static bool CatMoving = false;
+    
+    [SerializeField] private float transitionTime = 1.5f;
 
     public abstract CatType Type { get; }
+    
+    protected Animator _animator;
     
     public AnimationCurve moveCurve;
     public Vector3Int gridPos
@@ -23,6 +27,7 @@ public abstract class Cat : MonoBehaviour
 
     protected virtual void Start()
     {
+        _animator = GetComponent<Animator>();
         WalkableTile tile = LevelManager.instance.tilemap.GetInstantiatedObject(gridPos).GetComponent<WalkableTile>();
         tile.painted = true;
         tile.paintedBy = Type;
@@ -35,6 +40,8 @@ public abstract class Cat : MonoBehaviour
     public async Task MoveTo(Vector3Int destination)
     {
         currTile.RemoveOccupant(this);
+
+        CatMoving = true;
         
         Vector3 startPos = transform.position;
         Vector3 endPos = LevelManager.instance.tilemap.GetCellCenterWorld(destination);
@@ -42,6 +49,10 @@ public abstract class Cat : MonoBehaviour
         int numberOfFrames = Mathf.CeilToInt(transitionTime / Time.deltaTime);
 
         Vector3Int previousGridPos = gridPos;
+        
+        _animator.SetBool("moving", true);
+        _animator.SetFloat("facing", (endPos-startPos).normalized.x);
+        _animator.SetFloat("frontBack", -(endPos-startPos).normalized.y);
         
         for (int i = 0; i < numberOfFrames; i++)
         {
@@ -54,11 +65,12 @@ public abstract class Cat : MonoBehaviour
             }
             await Awaitable.NextFrameAsync();
         }
-
+        _animator.SetBool("moving", false);
         currTile = LevelManager.instance.tilemap.GetInstantiatedObject(destination).GetComponent<WalkableTile>();
         currTile.AddOccupant(this);
         ArrivedAtDestination(gridPos);
         transform.position = endPos;
+        CatMoving = false;
     }
 
     protected abstract void PassedIntoNewCell(Vector3Int newCell);

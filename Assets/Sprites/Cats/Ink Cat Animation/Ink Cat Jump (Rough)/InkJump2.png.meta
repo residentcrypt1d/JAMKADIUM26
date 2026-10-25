@@ -1,10 +1,22 @@
 fileFormatVersion: 2
-guid: 804c94e251d1e8e45a41a867253295a3
+guid: 4729e96d3c1b745c19a5a4a5e6da7012
 TextureImporter:
   internalIDToNameTable:
   - first:
       213: 7726145551844817433
     second: InkJump2_0
+  - first:
+      213: 1205500638511979208
+    second: InkJump2_1
+  - first:
+      213: -4147589710183520149
+    second: InkJump2_2
+  - first:
+      213: -1753371770962007873
+    second: InkJump2_3
+  - first:
+      213: -2302005061026295244
+    second: InkJump2_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,12 +58,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 750
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -116,10 +128,10 @@ TextureImporter:
       name: InkJump2_0
       rect:
         serializedVersion: 2
-        x: 675
-        y: 624
-        width: 805
-        height: 1115
+        x: 0
+        y: 0
+        width: 1080
+        height: 1080
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -134,11 +146,99 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: InkJump2_1
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 0
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ca5307917ccab010800000000000000
+      internalID: 1205500638511979208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump2_2
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 0
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b68227a222dc076c0800000000000000
+      internalID: -4147589710183520149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump2_3
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 0
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb8ac900aa5caa7e0800000000000000
+      internalID: -1753371770962007873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InkJump2_4
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 0
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4325062f792ad00e0800000000000000
+      internalID: -2302005061026295244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -149,6 +249,10 @@ TextureImporter:
       entries: []
     nameFileIdTable:
       InkJump2_0: 7726145551844817433
+      InkJump2_1: 1205500638511979208
+      InkJump2_2: -4147589710183520149
+      InkJump2_3: -1753371770962007873
+      InkJump2_4: -2302005061026295244
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

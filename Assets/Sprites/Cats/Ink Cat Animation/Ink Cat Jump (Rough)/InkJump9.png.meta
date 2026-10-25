@@ -1,31 +1,10 @@
 fileFormatVersion: 2
-guid: a516360a0059c1d4883f917453d41423
+guid: 0b52c6ba8c4324048a01013c861b0911
 TextureImporter:
   internalIDToNameTable:
   - first:
       213: -3034608934017090363
     second: InkJump9_0
-  - first:
-      213: 6776453639607841017
-    second: InkJump9_1
-  - first:
-      213: -7041501271371979462
-    second: InkJump9_2
-  - first:
-      213: -1074728741497371500
-    second: InkJump9_3
-  - first:
-      213: 1102983461844425218
-    second: InkJump9_4
-  - first:
-      213: 8334459714120705340
-    second: InkJump9_5
-  - first:
-      213: 6778610231776911773
-    second: InkJump9_6
-  - first:
-      213: 3357327579931840976
-    second: InkJump9_7
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -67,12 +46,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 750
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -137,10 +116,10 @@ TextureImporter:
       name: InkJump9_0
       rect:
         serializedVersion: 2
-        x: 755
-        y: 1278
-        width: 90
-        height: 108
+        x: 106
+        y: 110
+        width: 698
+        height: 277
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -155,165 +134,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: InkJump9_1
-      rect:
-        serializedVersion: 2
-        x: 1037
-        y: 1291
-        width: 58
-        height: 69
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9f07ab99eacca0e50800000000000000
-      internalID: 6776453639607841017
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: InkJump9_2
-      rect:
-        serializedVersion: 2
-        x: 645
-        y: 1097
-        width: 79
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a356962b6ef874e90800000000000000
-      internalID: -7041501271371979462
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: InkJump9_3
-      rect:
-        serializedVersion: 2
-        x: 860
-        y: 898
-        width: 77
-        height: 276
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 494852d57ebc511f0800000000000000
-      internalID: -1074728741497371500
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: InkJump9_4
-      rect:
-        serializedVersion: 2
-        x: 327
-        y: 497
-        width: 1204
-        height: 506
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 20a1e5c5d959e4f00800000000000000
-      internalID: 1102983461844425218
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: InkJump9_5
-      rect:
-        serializedVersion: 2
-        x: 954
-        y: 485
-        width: 81
-        height: 71
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c35e7feb3f2f9a370800000000000000
-      internalID: 8334459714120705340
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: InkJump9_6
-      rect:
-        serializedVersion: 2
-        x: 1410
-        y: 456
-        width: 46
-        height: 40
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d9124e75716721e50800000000000000
-      internalID: 6778610231776911773
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: InkJump9_7
-      rect:
-        serializedVersion: 2
-        x: 537
-        y: 410
-        width: 56
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0d1957465af979e20800000000000000
-      internalID: 3357327579931840976
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -324,13 +149,6 @@ TextureImporter:
       entries: []
     nameFileIdTable:
       InkJump9_0: -3034608934017090363
-      InkJump9_1: 6776453639607841017
-      InkJump9_2: -7041501271371979462
-      InkJump9_3: -1074728741497371500
-      InkJump9_4: 1102983461844425218
-      InkJump9_5: 8334459714120705340
-      InkJump9_6: 6778610231776911773
-      InkJump9_7: 3357327579931840976
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
