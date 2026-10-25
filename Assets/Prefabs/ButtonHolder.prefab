@@ -519,7 +519,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::LevelSelectButton
   levelNum: 1
   completionSprites:
-  - {fileID: 21300000, guid: c65b49d1db09d7f4e99298382ce8af61, type: 3}
+  - {fileID: 3664085914748291865, guid: e0bc0a1262b415d4c8b13625dc6c81e3, type: 3}
   - {fileID: 21300000, guid: 9f754ebda2652194282c7f4197ec1c74, type: 3}
   - {fileID: 21300000, guid: ece6baba227214341b2336f880953df0, type: 3}
   - {fileID: 21300000, guid: 96bd3e1459c64c14fbe0b4bbd37d35cf, type: 3}

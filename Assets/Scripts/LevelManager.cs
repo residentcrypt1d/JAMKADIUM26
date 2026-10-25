@@ -1,6 +1,8 @@
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.InputSystem;
 using UnityEngine.InputSystem.LowLevel;
 using UnityEngine.Tilemaps;
@@ -12,8 +14,7 @@ public class LevelManager : MonoBehaviour
     [SerializeField] private GameObject paintMapPrefab;
     public List<WalkableTile> walkableTiles = new List<WalkableTile>();
     [HideInInspector] public Tilemap tilemap;
-    private int currLevel = 0;
-    private int paintedTiles = 0;
+    public int currLevel = 0;
 
     private InputAction click;
     
@@ -21,6 +22,9 @@ public class LevelManager : MonoBehaviour
 
     private Tilemap selectionMap;
     private Tilemap paintMap;
+    private int currMoves = 0;
+    public UnityEvent<int> onMoveMade = new();
+    public UnityEvent<int> onGameOver = new();
 
     [SerializeField] private Tile cursorTile;
     [SerializeField] private Tile canSelectTile;
@@ -90,7 +94,7 @@ public class LevelManager : MonoBehaviour
         VisualUpdate(cellPos);
     }
 
-    private void ProcessClick(WalkableTile walkableTile)
+    private async Task ProcessClick(WalkableTile walkableTile)
     {
         if (walkableTile.occupants.Count > 0)
         {
@@ -107,7 +111,10 @@ public class LevelManager : MonoBehaviour
         var validMoves = selectedCat.GetValidMoves();
         if (validMoves.Contains(walkableTile.gridPosition))
         {
-            selectedCat.MoveTo(walkableTile.gridPosition);
+            await selectedCat.MoveTo(walkableTile.gridPosition);
+            currMoves++;
+            onMoveMade.Invoke(currMoves);
+            CheckCompletion();
         }
         
     }
@@ -203,11 +210,19 @@ public class LevelManager : MonoBehaviour
 
     public void CheckCompletion()
     {
+        int paintedTiles = 0;
+        foreach(WalkableTile tile in walkableTiles)
+        {
+            if(tile.painted)
+            {
+                paintedTiles++;
+            }
+        }
+
         if(paintedTiles >= walkableTiles.Count)
         {
-            Debug.Log("You're winner!");
-            currLevel++;
-            LoadLevel(currLevel);
+            onGameOver.Invoke(currMoves);
+            GameHandler.instance.RecordScore(currLevel, currMoves);
         }
     }
 }

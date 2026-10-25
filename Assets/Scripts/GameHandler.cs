@@ -28,11 +28,6 @@ public class GameHandler : MonoBehaviour
         }
     }
 
-    void Start()
-    {
-
-    }
-
     public void RecordScore(int levelNum, int score)
     {
         if(playerScores[levelNum] == -1)
@@ -61,5 +56,10 @@ public class GameHandler : MonoBehaviour
         {
             return 0;
         }
+    }
+
+    public int GetThreeStarThreshold(int levelNum)
+    {
+        return levels[levelNum].threeStarThreshold;
     }
 }
