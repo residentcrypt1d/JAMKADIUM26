@@ -21,8 +21,15 @@ public class StampCat : Cat
         return new List<Vector3Int>(){destination};
     }
 
-    public override async Task MoveTo(Vector3Int destination)
+    protected override void PassedIntoNewCell(Vector3Int newCell)
     {
-        throw new System.NotImplementedException();
+        return;
+    }
+
+    protected override void ArrivedAtDestination(Vector3Int destination)
+    {
+        WalkableTile tile = LevelManager.instance.tilemap.GetInstantiatedObject(destination).GetComponent<WalkableTile>();
+        tile.painted = true;
+        tile.paintedBy = CatType.Stamp;
     }
 }

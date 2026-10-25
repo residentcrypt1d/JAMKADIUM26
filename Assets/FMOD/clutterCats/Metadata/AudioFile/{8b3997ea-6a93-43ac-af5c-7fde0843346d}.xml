@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{8b3997ea-6a93-43ac-af5c-7fde0843346d}">
+		<property name="assetPath">
+			<value>MX/mx_layer_charcoal.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>91.034499999999994</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{dc76326e-8cc9-4aea-a176-a20b3765bb4d}</destination>
+		</relationship>
+	</object>
+</objects>

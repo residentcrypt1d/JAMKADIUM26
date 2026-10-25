@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{6c84c1a0-ab08-4bc1-8735-dfa0a30a6e4e}">
+		<property name="name">
+			<value>inkCatSelect</value>
+		</property>
+		<relationship name="folder">
+			<destination>{6654e8c3-b8a6-4175-91b1-06f0ebe4cbfb}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{40edbaec-b7fe-47fb-bab5-991f1fd1f8b6}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{40edbaec-b7fe-47fb-bab5-991f1fd1f8b6}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

@@ -2,6 +2,7 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.InputSystem.LowLevel;
 using UnityEngine.Tilemaps;
 
 public class LevelManager : MonoBehaviour
@@ -34,6 +35,7 @@ public class LevelManager : MonoBehaviour
     {
         LoadLevel(currLevel);
     }
+
     
     void Update()
     {
@@ -47,15 +49,12 @@ public class LevelManager : MonoBehaviour
 
         // _tilemap.SetColor(cellPos, Color.red);
 
-        WalkableTile tile = tilemap.GetTile<Tile>(cellPos)?.gameObject.GetComponent<WalkableTile>();
+        WalkableTile tile = tilemap.GetInstantiatedObject(cellPos)?.GetComponent<WalkableTile>();
         if (tile)
         {
-            if (!selectedCat)
+            if (click.WasPressedThisFrame())
             {
-                if (tile.occupants.Count > 0)
-                {
-                    selectedCat = tile.occupants.First(c => c is not InkCat);
-                }
+                ProcessClick(tile);
             }
 
             /*if(tile && !tile.painted)
@@ -66,29 +65,58 @@ public class LevelManager : MonoBehaviour
                 paintedTiles++;
             }*/
         }
-
+        
+        VisualUpdate(cellPos);
     }
 
-    private void VisualUpdate(Vector3Int mousedOverGrid)
+    private void ProcessClick(WalkableTile walkableTile)
     {
-        if (!selectedCat) return;
-
-        var validMoves = selectedCat.GetValidMoves();
-        List<Vector3Int> inkPositions = new List<Vector3Int>();
+        print($"Clicked {walkableTile.gameObject.name}");
         
-        if (validMoves.Contains(mousedOverGrid))
+        print($"\t{walkableTile.occupants}");
+        if (walkableTile.occupants.Count > 0)
         {
-            inkPositions.AddRange(selectedCat.GetInkPatternFromMovement(mousedOverGrid));
+            if (selectedCat && walkableTile.occupants.Contains(selectedCat)) selectedCat = null;
+            else if (walkableTile.occupants.Count == 1) selectedCat = walkableTile.occupants[0];
+            else selectedCat = walkableTile.occupants.First(c => c is not InkCat);
+        }
+
+        if (!selectedCat)
+        {
+            print($"\tNo cat selected, returning.");
+            return;
         }
         
+        
+        print($"\t{selectedCat} is selected.");
+        
+        var validMoves = selectedCat.GetValidMoves();
+        if (validMoves.Contains(walkableTile.gridPosition))
+        {
+            selectedCat.MoveTo(walkableTile.gridPosition);
+        }
+        
+    }
+
+    
+    private void VisualUpdate(Vector3Int mousedOverGrid)
+    {
+        List<Vector3Int> validMoves = new List<Vector3Int>();
+        List<Vector3Int> inkPositions = new List<Vector3Int>();
+        
+        if (selectedCat)
+        {
+            validMoves = selectedCat.GetValidMoves();
+
+
+            if (validMoves.Contains(mousedOverGrid))
+            {
+                inkPositions.AddRange(selectedCat.GetInkPatternFromMovement(mousedOverGrid));
+            }
+        }
+
         foreach (WalkableTile w in walkableTiles)
         {
-            if (w.tile == null)
-            {
-                Debug.LogWarning("Tile Missing");
-                continue;
-            }
-            
             if(validMoves.Contains(w.gridPosition) && inkPositions.Contains(w.gridPosition))
                 tilemap.SetColor(w.gridPosition, Color.purple);
             else if (validMoves.Contains(w.gridPosition))
@@ -97,6 +125,8 @@ public class LevelManager : MonoBehaviour
             {
                 tilemap.SetColor(w.gridPosition, Color.blue);
             }
+            else if(w.painted)
+                tilemap.SetColor(w.gridPosition, Color.darkSlateGray);
             else
                 tilemap.SetColor(w.gridPosition, Color.white);
         }
