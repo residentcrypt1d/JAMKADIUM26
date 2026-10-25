@@ -5,8 +5,8 @@ using System.Threading.Tasks;
 
 public class StampCat : Cat
 {
-    public void StampCatSpecial(){
-
+    public override CatType Type {
+        get { return CatType.Stamp; }
     }
 
     public override List<Vector3Int> GetValidMoves()

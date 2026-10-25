@@ -111,9 +111,13 @@ public class LevelManager : MonoBehaviour
         foreach (WalkableTile w in walkableTiles)
         {
             if(validMoves.Contains(w.gridPosition) && inkPositions.Contains(w.gridPosition))
+            {
                 tilemap.SetColor(w.gridPosition, Color.purple);
+            }
             else if (validMoves.Contains(w.gridPosition))
+            {
                 tilemap.SetColor(w.gridPosition, Color.red);
+            }
             else if(inkPositions.Contains(w.gridPosition))
             {
                 tilemap.SetColor(w.gridPosition, Color.blue);

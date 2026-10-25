@@ -7,6 +7,10 @@ using UnityEngine.InputSystem;
 
 public abstract class Cat : MonoBehaviour
 {
+    [SerializeField] private float transitionTime = 1.0f;
+
+    public abstract CatType Type { get; }
+    
     public AnimationCurve moveCurve;
     public Vector3Int gridPos
     {
@@ -17,12 +21,17 @@ public abstract class Cat : MonoBehaviour
     }
     public WalkableTile currTile;
 
+    protected virtual void Start()
+    {
+        WalkableTile tile = LevelManager.instance.tilemap.GetInstantiatedObject(gridPos).GetComponent<WalkableTile>();
+        tile.painted = true;
+        tile.paintedBy = Type;
+    }
+    
     public abstract List<Vector3Int> GetValidMoves();
 
     public abstract List<Vector3Int> GetInkPatternFromMovement(Vector3Int destination);
 
-    [SerializeField] private float transitionTime = 1.0f;
-    
     public async Task MoveTo(Vector3Int destination)
     {
         currTile.RemoveOccupant(this);

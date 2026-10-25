@@ -5,8 +5,8 @@ using System.Threading.Tasks;
 
 public class CharcoalCat : Cat
 {
-    public void CharcoalCatSpecial(){
-
+    public override CatType Type {
+        get { return CatType.Charcoal; }
     }
 
     public override List<Vector3Int> GetValidMoves(){
@@ -24,7 +24,7 @@ public class CharcoalCat : Cat
     }
     
     private Vector3Int CharcoalHelper(Vector3Int dir, Vector3Int pos){
-        if (LevelManager.instance.tilemap.GetTile(pos+dir) == null)
+        if (LevelManager.instance.tilemap.GetInstantiatedObject(pos+dir) == null)
         {
             return pos;
         }

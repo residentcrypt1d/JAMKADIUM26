@@ -7,6 +7,9 @@ using UnityEngine.Tilemaps;
 public class InkCat : Cat
 {
     private const int MAX_JUMP_DIST = 3;
+    public override CatType Type {
+        get { return CatType.Ink; }
+    }
     
     public void InkCatSpecial(){
 
@@ -68,7 +71,7 @@ public class InkCat : Cat
 
         if (LevelManager.instance.tilemap.GetTile(coord) is Tile tile)
         {
-            if (tile.gameObject.TryGetComponent(out WalkableTile walkable) && depth == MAX_JUMP_DIST)
+            if ((LevelManager.instance.tilemap.GetInstantiatedObject(coord)?.TryGetComponent(out WalkableTile walkable)).GetValueOrDefault(false) && depth == MAX_JUMP_DIST)
             {
                 list.Add(coord);
             }
