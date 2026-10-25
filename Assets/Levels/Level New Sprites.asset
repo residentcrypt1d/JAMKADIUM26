@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6951070ce9c265b41a1af93d726bbe42, type: 3}
+  m_Name: Level New Sprites
+  m_EditorClassIdentifier: Assembly-CSharp::Level
+  levelPrefab: {fileID: 8625393450885834537, guid: 764223f349548154c8ef052c5ce6b673, type: 3}
+  threeStarThreshold: 5
+  twoStarThreshold: 7
+  oneStarThreshold: 10

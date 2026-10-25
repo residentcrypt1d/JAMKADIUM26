@@ -53,9 +53,9 @@ public class SceneLoader : MonoBehaviour
 
     private IEnumerator SceneSwapEnumerator()
     {
-        yield return SceneManager.UnloadSceneAsync(prevScene);
         yield return SceneManager.LoadSceneAsync(targetScene, LoadSceneMode.Additive);
         SceneManager.SetActiveScene(SceneManager.GetSceneByName(targetScene));
+        yield return SceneManager.UnloadSceneAsync(prevScene);
         doneLoadingEvent.Invoke();
     }
 }

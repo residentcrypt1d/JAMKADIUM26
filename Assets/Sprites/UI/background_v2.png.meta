@@ -1,15 +1,15 @@
 fileFormatVersion: 2
-guid: b6c057cac8a4ee747b2bd31efe29c05a
+guid: 732c78c31ad0d8444b66a27f650d3026
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8712917598001455812
-    second: AdobeStock_281141016_0
+      213: -964972929880277729
+    second: background_v2_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 0
+    enableMipMap: 1
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: AdobeStock_281141016_0
+      name: background_v2_0
       rect:
         serializedVersion: 2
-        x: 948
-        y: 651
-        width: 1977
-        height: 2571
+        x: 0
+        y: 0
+        width: 1600
+        height: 1200
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c3d9fdd8b9f751780800000000000000
-      internalID: -8712917598001455812
+      spriteID: f1d3e90ab3abb92f0800000000000000
+      internalID: -964972929880277729
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      AdobeStock_281141016_0: -8712917598001455812
+      background_v2_0: -964972929880277729
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -16,6 +16,10 @@ public class CameraAutoResize : MonoBehaviour
 
     public static void ResizeTo(Vector3 position, Bounds bounds)
     {
+        Debug.DrawLine(position, position + (Vector3.up * bounds.extents.y), Color.red, 100);
+        Debug.DrawLine(position, position - (Vector3.up * bounds.extents.y), Color.red, 100);
+        Debug.DrawLine(position, position + (Vector3.right * bounds.extents.x), Color.red, 100);
+        Debug.DrawLine(position, position - (Vector3.right * bounds.extents.x), Color.red, 100);
         instance.transform.position = position - Vector3.forward;
         instance.camera.orthographicSize = bounds.extents.y;
     }
