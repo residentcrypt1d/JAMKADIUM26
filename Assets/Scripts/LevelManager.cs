@@ -227,8 +227,8 @@ public class LevelManager : MonoBehaviour
 
         if(paintedTiles >= walkableTiles.Count)
         {
-            onGameOver.Invoke(currMoves);
             GameHandler.instance.RecordScore(currLevel, currMoves);
+            onGameOver.Invoke(currMoves);
         }
     }
 }
