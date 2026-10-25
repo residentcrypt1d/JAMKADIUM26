@@ -77,7 +77,7 @@ public class LevelManager : MonoBehaviour
         WalkableTile tile = tilemap.GetInstantiatedObject(cellPos)?.GetComponent<WalkableTile>();
         if (tile)
         {
-            if (click.WasPressedThisFrame())
+            if (click.WasPressedThisFrame() && !Cat.CatMoving)
             {
                 ProcessClick(tile);
             }

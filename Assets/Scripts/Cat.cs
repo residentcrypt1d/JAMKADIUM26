@@ -7,6 +7,8 @@ using UnityEngine.InputSystem;
 
 public abstract class Cat : MonoBehaviour
 {
+    public static bool CatMoving = false;
+    
     [SerializeField] private float transitionTime = 1.5f;
 
     public abstract CatType Type { get; }
@@ -38,6 +40,8 @@ public abstract class Cat : MonoBehaviour
     public async Task MoveTo(Vector3Int destination)
     {
         currTile.RemoveOccupant(this);
+
+        CatMoving = true;
         
         Vector3 startPos = transform.position;
         Vector3 endPos = LevelManager.instance.tilemap.GetCellCenterWorld(destination);
@@ -66,6 +70,7 @@ public abstract class Cat : MonoBehaviour
         currTile.AddOccupant(this);
         ArrivedAtDestination(gridPos);
         transform.position = endPos;
+        CatMoving = false;
     }
 
     protected abstract void PassedIntoNewCell(Vector3Int newCell);
