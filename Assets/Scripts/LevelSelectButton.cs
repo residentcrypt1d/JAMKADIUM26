@@ -31,5 +31,6 @@ public class LevelSelectButton : MonoBehaviour
             lockOverlay.SetActive(false);
         }
         completionImage.sprite = completionSprites[GameHandler.instance.FindTier(levelNum - 1)];
+        Debug.Log(completionSprites[GameHandler.instance.FindTier(levelNum - 1)]);
     }
 }

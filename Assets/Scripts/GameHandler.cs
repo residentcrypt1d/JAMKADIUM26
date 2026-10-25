@@ -32,15 +32,11 @@ public class GameHandler : MonoBehaviour
 
     public void RecordScore(int levelNum, int score)
     {
-        for(int i = 0; i < playerScores.Length; i++)
+        if(playerScores[levelNum] == -1)
         {
-            completedLevels = 0;
-            if(playerScores[i] != -1)
-            {
-                completedLevels++;
-            }
+            completedLevels++;
         }
-        if(playerScores[levelNum] > score)
+        if(playerScores[levelNum] > score || playerScores[levelNum] == -1)
         {
             playerScores[levelNum] = score;
         }
@@ -50,7 +46,11 @@ public class GameHandler : MonoBehaviour
     public int FindTier(int levelNum)
     {
         Level currLevel = levels[levelNum];
-        if(playerScores[levelNum] <= currLevel.threeStarThreshold)
+        if(playerScores[levelNum] == -1)
+        {
+            return 0;
+        }
+        else if(playerScores[levelNum] <= currLevel.threeStarThreshold)
         {
             return 3;
         }
