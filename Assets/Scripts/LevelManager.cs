@@ -194,6 +194,11 @@ public class LevelManager : MonoBehaviour
             Destroy(tilemap.gameObject);
         }
         tilemap = Instantiate(GameHandler.instance.levels[levelNum].levelPrefab, transform).GetComponent<Tilemap>();
+
+        tilemap.transform.localPosition = Vector3.zero;
+        selectionMap.transform.localPosition = Vector3.zero;
+        paintMap.transform.localPosition = Vector3.zero;
+        
         if(!tilemap)
         {
             Debug.LogError("Level " + levelNum + " GameObject does not have a tilemap.");
